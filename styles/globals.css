@@ -1,0 +1,21 @@
+* {
+ 
+  overflow-x: hidden;
+  box-shadow: none;
+}
+
+a {
+  padding-inline: 7px;
+}
+
+.m {
+  padding-top: 4px;
+  padding-left: 7px;
+  
+}
+
+.b {
+  object-fit: cover;
+  object-position: bottom;
+
+}
