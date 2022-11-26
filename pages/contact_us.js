@@ -66,10 +66,12 @@ export function Contact_Page() {
                 mb={6}
                 overflow="hidden"
                 fontFamily="'M PLUS Rounded 1c'"
+                color="white"
               >
                 Contact Us
               </Heading>
               <Input
+                background="#202023"
                 name="name"
                 id="name"
                 placeholder="Name"
@@ -78,6 +80,7 @@ export function Contact_Page() {
                 type="text"
               />
               <Input
+                background="#202023"
                 name="email"
                 id="email"
                 placeholder="Email"
@@ -86,6 +89,7 @@ export function Contact_Page() {
                 type="email"
               />
               <Input
+                background="#202023"
                 name="subject"
                 id="subject"
                 placeholder="Subject"
@@ -93,7 +97,9 @@ export function Contact_Page() {
                 mb={6}
                 type="text"
               />
+
               <Textarea
+                background="#202023"
                 name="message"
                 id="message"
                 placeholder="Message"
