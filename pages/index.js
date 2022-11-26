@@ -8,9 +8,19 @@ import {
   Flex,
 } from "@chakra-ui/react";
 
+import Head from "next/head";
+
 function Home() {
   return (
     <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1 " />
+        <title>MGY-Tech | Web design agency</title>
+        <meta name="description" content="MGY-Tech | Web design agency" />
+        <meta name="author" content="Mohamad Youness" />
+
+        <link rel="shortcut icon" href="/Logo_white.png" type="image/x-icon" />
+      </Head>
       <Flex justify="center" h="100vh" w="100vw" background="#050505">
         <Heading
           position="absolute"
