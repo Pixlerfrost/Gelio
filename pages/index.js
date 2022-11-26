@@ -24,8 +24,8 @@ function Home() {
       <Flex justify="center" h="100vh" w="100vw" background="#050505">
         <Heading
           position="absolute"
-          fontSize={{ base: 65, md: 100 }}
-          pt={{ base: "37vh", md: "32vh" }}
+          fontSize={{ base: 60, md: 100 }}
+          pt={{ base: "30vh", md: "32vh" }}
           overflow="hidden"
           maxW="container.md"
           textAlign="center"
@@ -37,8 +37,8 @@ function Home() {
         <Text
           fontWeight="bold"
           fontFamily="'M PLUS Rounded 1c'"
-          fontSize={{ base: 18, md: 23 }}
-          mt={{ base: "60vh", md: "66vh" }}
+          fontSize={{ base: 16, md: 23 }}
+          mt={{ base: "53vh", md: "66vh" }}
           color="white"
         >
           A website to fullfill your heart&apos;s desires
@@ -54,7 +54,7 @@ function Home() {
               color="#8255ff"
               textAlign="center"
               mt="30vh"
-              w={{ base: "90vw", md: "45vw" }}
+              w={{ base: "100vw", md: "45vw" }}
             >
               We make websites the right way.
             </Heading>
@@ -79,7 +79,7 @@ function Home() {
                 h="6vh"
                 mr={{ base: 7, md: 0 }}
                 _hover="none"
-                ml={{ base: "31vw", md: "17vw" }}
+                ml={{ base: "29vw", md: "17vw" }}
                 mt="3vh"
               >
                 Contact us!
