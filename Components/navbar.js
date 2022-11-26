@@ -11,6 +11,7 @@ function Navbar() {
           maxW="container.md"
           justify="space-between"
           overflow="hidden"
+          color="white"
         >
           <Logo />
 

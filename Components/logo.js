@@ -8,6 +8,7 @@ const LogoBox = styled.span`
   padding-top: 2px;
   padding-left: 2px;
   overflow: hidden;
+  color: white;
   img {
     transition: 200ms ease;
   }
@@ -23,7 +24,7 @@ const Logo = () => {
         <Image src="/Logo_white.png" width={10} height={10} alt="logo" mr="2" />
         <Text
           fontSize={20}
-          color={useColorModeValue("gray.800", "whiteAlpha.900")}
+          color="white"
           fontFamily="'M PLUS Rounded 1c'"
           fontWeight="bold"
           className="m"

@@ -30,6 +30,7 @@ function Home() {
           maxW="container.md"
           textAlign="center"
           fontFamily="agrandir"
+          color="white"
         >
           Web Design & Development.
         </Heading>
@@ -38,6 +39,7 @@ function Home() {
           fontFamily="'M PLUS Rounded 1c'"
           fontSize={{ base: 18, md: 23 }}
           mt={{ base: "60vh", md: "66vh" }}
+          color="white"
         >
           A website to fullfill your heart&apos;s desires
         </Text>
