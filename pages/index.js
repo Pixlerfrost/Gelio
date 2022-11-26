@@ -54,7 +54,7 @@ function Home() {
               color="#8255ff"
               textAlign="center"
               mt="30vh"
-              pr={{ base: "8vw", md: "0" }}
+              pr={{ base: "10vw", md: "0" }}
               w={{ base: "110vw", md: "45vw" }}
             >
               We make websites the right way.
@@ -66,7 +66,7 @@ function Home() {
               fontSize={{ base: 18, md: 20 }}
               w={{ base: "90vw", md: "45vw" }}
               pt="3vh"
-              pl={{ base: "7vw", md: 0 }}
+              pl={{ base: "10vw", md: 0 }}
             >
               Stop wasting your time and money on uninspiring designs. It&apos;s
               time to get back what you put in.
