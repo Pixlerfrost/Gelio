@@ -29,7 +29,7 @@ const Logo = () => {
           fontWeight="bold"
           className="m"
         >
-          MGY-Tech
+          GCP-Tech(Gangsta cream pie tech)
         </Text>
       </LogoBox>
     </Link>
