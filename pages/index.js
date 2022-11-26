@@ -90,7 +90,6 @@ function Home() {
             color="white"
             w="40"
             h="6vh"
-            mr={{ base: 7, md: 0 }}
             _hover="none"
             mt="3vh"
           >
