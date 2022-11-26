@@ -22,7 +22,7 @@ function Navbar() {
               fontFamily="Agrandir"
               color="white"
               w="30"
-              mr={{ base: 3, md: 0 }}
+              mr={{ base: 1, md: 0 }}
             >
               Hi there, let&apos;s chat!
             </Button>
