@@ -41,7 +41,7 @@ function Home() {
           mt={{ base: "50vh", md: "66vh" }}
           color="white"
         >
-          A website to fullfill your heart&apos;s desires
+          A website to fullfill your assholes desires
         </Text>
       </Flex>
 
