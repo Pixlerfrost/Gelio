@@ -50,11 +50,11 @@ function Home() {
           <Stack direction="column">
             <Heading
               fontFamily="agrandir"
-              fontSize={{ base: 50, md: 80 }}
+              fontSize={{ base: 40, md: 80 }}
               color="#8255ff"
               textAlign="center"
               mt="30vh"
-              w={{ base: "105vw", md: "45vw" }}
+              w={{ base: "110vw", md: "45vw" }}
             >
               We make websites the right way.
             </Heading>
