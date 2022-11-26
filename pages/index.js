@@ -50,7 +50,7 @@ function Home() {
           <Stack direction="column">
             <Heading
               fontFamily="agrandir"
-              fontSize={{ base: 40, md: 80 }}
+              fontSize={{ base: 35, md: 80 }}
               color="#8255ff"
               textAlign="center"
               mt="30vh"
@@ -65,7 +65,7 @@ function Home() {
               fontSize={{ base: 18, md: 20 }}
               w={{ base: "90vw", md: "45vw" }}
               pt="3vh"
-              pl="4vw"
+              pl="5vw"
             >
               Stop wasting your time and money on uninspiring designs. It&apos;s
               time to get back what you put in.
