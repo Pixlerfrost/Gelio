@@ -37,7 +37,7 @@ function Home() {
         <Text
           fontWeight="bold"
           fontFamily="'M PLUS Rounded 1c'"
-          fontSize={{ base: 15, md: 23 }}
+          fontSize={{ base: 16, md: 23 }}
           mt={{ base: "50vh", md: "66vh" }}
           color="white"
         >
