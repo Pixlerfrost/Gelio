@@ -37,8 +37,8 @@ function Home() {
         <Text
           fontWeight="bold"
           fontFamily="'M PLUS Rounded 1c'"
-          fontSize={{ base: 16, md: 23 }}
-          mt={{ base: "53vh", md: "66vh" }}
+          fontSize={{ base: 15, md: 23 }}
+          mt={{ base: "52vh", md: "66vh" }}
           color="white"
         >
           A website to fullfill your heart&apos;s desires
@@ -54,7 +54,7 @@ function Home() {
               color="#8255ff"
               textAlign="center"
               mt="30vh"
-              w={{ base: "120vw", md: "45vw" }}
+              w={{ base: "110vw", md: "45vw" }}
             >
               We make websites the right way.
             </Heading>
@@ -65,7 +65,7 @@ function Home() {
               fontSize={{ base: 18, md: 20 }}
               w={{ base: "90vw", md: "45vw" }}
               pt="3vh"
-              pl="2vw"
+              pl="3vw"
             >
               Stop wasting your time and money on uninspiring designs. It&apos;s
               time to get back what you put in.
