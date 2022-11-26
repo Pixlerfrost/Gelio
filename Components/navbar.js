@@ -19,7 +19,6 @@ function Navbar() {
             <Button
               borderRadius="md"
               background="#202023"
-              fontFamily="Agrandir"
               color="white"
               w="30"
               mr={{ base: 1, md: 0 }}
