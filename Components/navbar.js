@@ -23,7 +23,7 @@ function Navbar() {
               w="30"
               mr={{ base: 7, md: 0 }}
             >
-              Hi there, let's chat!
+              Hi there, let&apos;s chat!
             </Button>
           </Link>
         </Container>

@@ -39,7 +39,7 @@ function Home() {
           fontSize={{ base: 18, md: 23 }}
           mt={{ base: "60vh", md: "66vh" }}
         >
-          A website to fullfill you're heart's desires
+          A website to fullfill your heart&apos;s desires
         </Text>
       </Flex>
 
@@ -64,8 +64,8 @@ function Home() {
               w={{ base: "90vw", md: "45vw" }}
               pt="3vh"
             >
-              Stop wasting your time and money on uninspiring designs. It's time
-              to get back what you put in.
+              Stop wasting your time and money on uninspiring designs. It&apos;s
+              time to get back what you put in.
             </Text>
             <Link ml="auto" href="contact_us">
               <Button
