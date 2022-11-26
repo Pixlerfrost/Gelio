@@ -24,7 +24,7 @@ function Home() {
       <Flex justify="center" h="100vh" w="100vw" background="#050505">
         <Heading
           position="absolute"
-          fontSize={{ base: 60, md: 100 }}
+          fontSize={{ base: 55, md: 100 }}
           pt={{ base: "30vh", md: "32vh" }}
           overflow="hidden"
           maxW="container.md"
@@ -54,7 +54,7 @@ function Home() {
               color="#8255ff"
               textAlign="center"
               mt="30vh"
-              w={{ base: "100vw", md: "45vw" }}
+              w={{ base: "120vw", md: "45vw" }}
             >
               We make websites the right way.
             </Heading>
@@ -65,6 +65,7 @@ function Home() {
               fontSize={{ base: 18, md: 20 }}
               w={{ base: "90vw", md: "45vw" }}
               pt="3vh"
+              pl="2vw"
             >
               Stop wasting your time and money on uninspiring designs. It&apos;s
               time to get back what you put in.
