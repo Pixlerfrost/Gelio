@@ -46,7 +46,7 @@ function Home() {
           fontFamily="'M PLUS Rounded 1c'"
           fontSize={{ base: 16, md: 23 }}
           color="white"
-          pt={{ base: "21vh", md: "40vh" }}
+          pt={{ base: "2vh", md: "40vh" }}
         >
           A website to fullfill your heart&apos;s desires
         </Text>
@@ -64,10 +64,10 @@ function Home() {
       >
         <Heading
           fontFamily="agrandir"
-          fontSize={{ base: 35, md: 80 }}
+          fontSize={{ base: 45, md: 80 }}
+          maxW="container.md"
           color="#8255ff"
           textAlign="center"
-          w={{ base: "110vw", md: "45vw" }}
         >
           We make websites the right way.
         </Heading>
@@ -76,7 +76,7 @@ function Home() {
           color="#201652"
           fontFamily="'M PLUS Rounded 1c'"
           fontSize={{ base: 18, md: 20 }}
-          w={{ base: "90vw", md: "45vw" }}
+          maxW="container.sm"
           pt="3vh"
         >
           Stop wasting your time and money on uninspiring designs. It&apos;s
