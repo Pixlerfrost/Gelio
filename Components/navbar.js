@@ -1,5 +1,6 @@
-import { Box, Container, Button, Link } from "@chakra-ui/react";
+import { Box, Container, Button, Link, IconButton } from "@chakra-ui/react";
 import Logo from "../Components/logo";
+import { HamburgerIcon } from "@chakra-ui/icons";
 
 function Navbar() {
   return (
@@ -15,17 +16,11 @@ function Navbar() {
         >
           <Logo />
 
-          <Link ml="auto" href="contact_us">
-            <Button
-              borderRadius="md"
-              background="#202023"
-              color="white"
-              w="30"
-              mr={{ base: 1, md: 0 }}
-            >
-              Hi there, let&apos;s chat!
-            </Button>
-          </Link>
+          <IconButton
+            icon={<HamburgerIcon />}
+            ml="auto"
+            mr={{ base: "2vw", md: 0 }}
+          />
         </Container>
       </Box>
     </>
