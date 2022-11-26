@@ -46,7 +46,7 @@ function Home() {
           fontFamily="'M PLUS Rounded 1c'"
           fontSize={{ base: 16, md: 23 }}
           color="white"
-          pt={{ base: "2vh", md: "40vh" }}
+          pt={{ base: "22vh", md: "40vh" }}
         >
           A website to fullfill your heart&apos;s desires
         </Text>
