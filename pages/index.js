@@ -54,7 +54,7 @@ function Home() {
               color="#8255ff"
               textAlign="center"
               mt="30vh"
-              pr={{ base: "4vw", md: "0" }}
+              pr={{ base: "8vw", md: "0" }}
               w={{ base: "110vw", md: "45vw" }}
             >
               We make websites the right way.
