@@ -20,7 +20,7 @@ function Navbar() {
             icon={<HamburgerIcon />}
             ml="auto"
             mr={{ base: "2vw", md: 0 }}
-            colorScheme="Gray"
+            background="#202023"
             _hover="hidden"
           />
         </Container>
