@@ -5,7 +5,7 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 function Navbar() {
   return (
     <>
-      <Box position="absolute" w="100vw" bg="whiteAlpha.50" zIndex={1}>
+      <Box w="100vw" bg="#050505" zIndex={1}>
         <Container
           display="flex"
           p={2}
@@ -19,7 +19,7 @@ function Navbar() {
           <IconButton
             icon={<HamburgerIcon />}
             ml="auto"
-            mr={{ base: "2vw", md: 0 }}
+            mr={{ base: "5vw", md: 0 }}
             background="#202023"
             _hover="hidden"
           />

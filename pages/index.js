@@ -31,7 +31,6 @@ function Home() {
         display="flex"
       >
         <Heading
-          position="absolute"
           fontSize={{ base: 53, md: 100 }}
           overflow="hidden"
           maxW="container.md"
@@ -46,7 +45,6 @@ function Home() {
           fontFamily="'M PLUS Rounded 1c'"
           fontSize={{ base: 16, md: 23 }}
           color="white"
-          pt={{ base: "22vh", md: "40vh" }}
         >
           A website to fullfill your heart&apos;s desires
         </Text>
@@ -64,10 +62,11 @@ function Home() {
       >
         <Heading
           fontFamily="agrandir"
-          fontSize={{ base: 45, md: 80 }}
+          fontSize={{ base: 40, md: 80 }}
           maxW="container.md"
           color="#8255ff"
           textAlign="center"
+          mb="3vh"
         >
           We make websites the right way.
         </Heading>
@@ -75,22 +74,21 @@ function Home() {
           textAlign="center"
           color="#201652"
           fontFamily="'M PLUS Rounded 1c'"
-          fontSize={{ base: 18, md: 20 }}
-          maxW="container.sm"
-          pt="3vh"
+          fontSize={{ base: 16, md: 20 }}
+          maxW={{ base: "90vw", md: "50vw" }}
+          overflow="hidden"
         >
           Stop wasting your time and money on uninspiring designs. It&apos;s
           time to get back what you put in.
         </Text>
-        <Link href="contact_us" color="white">
+        <Link href="contact_us" color="white" overflow="hidden">
           <Button
-            borderRadius="60"
+            borderRadius="3xl"
             background="#8255ff"
             fontFamily="Agrandir"
             color="white"
-            w="40"
-            h="6vh"
             _hover="none"
+            p="6"
             mt="3vh"
           >
             Contact us!
