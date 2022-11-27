@@ -66,7 +66,7 @@ export function Contact_Page() {
                 mb={6}
                 overflow="hidden"
                 fontFamily="'M PLUS Rounded 1c'"
-                color="white"
+                textColor="white"
               >
                 Contact Us
               </Heading>
@@ -86,7 +86,7 @@ export function Contact_Page() {
                 id="email"
                 placeholder="Email"
                 variant="filled"
-                color="white"
+                textColor="white"
                 mb={6}
                 type="email"
               />
@@ -96,7 +96,8 @@ export function Contact_Page() {
                 id="subject"
                 placeholder="Subject"
                 variant="filled"
-                color="white"
+                text
+                textColor="white"
                 mb={6}
                 type="text"
               />
@@ -104,7 +105,8 @@ export function Contact_Page() {
               <Textarea
                 background="#202023"
                 name="message"
-                color="white"
+                text
+                textColor="white"
                 id="message"
                 placeholder="Message"
                 variant="filled"
