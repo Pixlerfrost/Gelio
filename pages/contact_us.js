@@ -79,6 +79,7 @@ export function Contact_Page() {
                 mb={6}
                 type="text"
                 color="white"
+                _hover="hidden"
               />
               <Input
                 background="#202023"
@@ -88,6 +89,7 @@ export function Contact_Page() {
                 variant="filled"
                 textColor="white"
                 mb={6}
+                _hover="hidden"
                 type="email"
               />
               <Input
@@ -100,6 +102,7 @@ export function Contact_Page() {
                 textColor="white"
                 mb={6}
                 type="text"
+                _hover="hidden"
               />
 
               <Textarea
@@ -110,6 +113,7 @@ export function Contact_Page() {
                 id="message"
                 placeholder="Message"
                 variant="filled"
+                _hover="hidden"
                 mb={6}
               />
               <Button colorScheme="teal" type="submit" value="send">
