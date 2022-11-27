@@ -82,7 +82,7 @@ function Home() {
           Stop wasting your time and money on uninspiring designs. It&apos;s
           time to get back what you put in.
         </Text>
-        <Link href="contact_us">
+        <Link href="contact_us" color="white">
           <Button
             borderRadius="60"
             background="#8255ff"
