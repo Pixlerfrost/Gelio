@@ -21,6 +21,7 @@ function Navbar() {
             ml="auto"
             mr={{ base: "2vw", md: 0 }}
             background="#202023"
+            variant="outline"
             _hover="hidden"
           />
         </Container>
