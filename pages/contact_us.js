@@ -78,6 +78,7 @@ export function Contact_Page() {
                 variant="filled"
                 mb={6}
                 type="text"
+                color="white"
               />
               <Input
                 background="#202023"
@@ -85,6 +86,7 @@ export function Contact_Page() {
                 id="email"
                 placeholder="Email"
                 variant="filled"
+                color="white"
                 mb={6}
                 type="email"
               />
@@ -94,6 +96,7 @@ export function Contact_Page() {
                 id="subject"
                 placeholder="Subject"
                 variant="filled"
+                color="white"
                 mb={6}
                 type="text"
               />
@@ -101,6 +104,7 @@ export function Contact_Page() {
               <Textarea
                 background="#202023"
                 name="message"
+                color="white"
                 id="message"
                 placeholder="Message"
                 variant="filled"
