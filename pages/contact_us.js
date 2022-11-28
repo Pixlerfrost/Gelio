@@ -80,6 +80,7 @@ export function Contact_Page() {
                 type="text"
                 color="white"
                 _hover="hidden"
+                _placeholder={{ opacity: 1, color: "gray.500" }}
               />
               <Input
                 background="#202023"
@@ -91,6 +92,7 @@ export function Contact_Page() {
                 mb={6}
                 _hover="hidden"
                 type="email"
+                _placeholder={{ opacity: 1, color: "gray.500" }}
               />
               <Input
                 background="#202023"
@@ -103,6 +105,7 @@ export function Contact_Page() {
                 mb={6}
                 type="text"
                 _hover="hidden"
+                _placeholder={{ opacity: 1, color: "gray.500" }}
               />
 
               <Textarea
@@ -115,6 +118,7 @@ export function Contact_Page() {
                 variant="filled"
                 _hover="hidden"
                 mb={6}
+                _placeholder={{ opacity: 1, color: "gray.500" }}
               />
               <Button colorScheme="teal" type="submit" value="send">
                 Send
