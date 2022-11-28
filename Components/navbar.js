@@ -5,7 +5,7 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 function Navbar() {
   return (
     <>
-      <Box w="100vw" bg="#050505" zIndex={1}>
+      <Box w="100vw" bg="#050505" zIndex={1} className="n">
         <Container
           display="flex"
           p={2}

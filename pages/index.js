@@ -1,12 +1,4 @@
-import {
-  Text,
-  Stack,
-  Link,
-  Box,
-  Button,
-  Heading,
-  Flex,
-} from "@chakra-ui/react";
+import { Text, Stack, Link, Button, Heading } from "@chakra-ui/react";
 
 import Head from "next/head";
 
@@ -74,8 +66,8 @@ function Home() {
           textAlign="center"
           color="#201652"
           fontFamily="'M PLUS Rounded 1c'"
-          fontSize={{ base: 16, md: 20 }}
-          maxW={{ base: "90vw", md: "50vw" }}
+          fontSize={{ base: 18, md: 25 }}
+          maxW={{ base: "90vw", md: "container.sm" }}
           overflow="hidden"
         >
           Stop wasting your time and money on uninspiring designs. It&apos;s
