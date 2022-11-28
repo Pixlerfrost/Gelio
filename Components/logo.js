@@ -10,10 +10,10 @@ const LogoBox = styled.span`
   overflow: hidden;
   color: white;
   img {
-    transition: 200ms ease;
+    transition: 500ms ease;
   }
   &:hover img {
-    transform: rotate(20deg);
+    transform: rotate(360deg);
   }
 `;
 
@@ -23,13 +23,13 @@ const Logo = () => {
       <LogoBox>
         <Image src="/Logo_white.png" width={10} height={10} alt="logo" mr="2" />
         <Text
-          fontSize={20}
+          fontSize={25}
           color="white"
           fontFamily="'M PLUS Rounded 1c'"
           fontWeight="bold"
           className="m"
         >
-          MGY-Tech
+          Gelio
         </Text>
       </LogoBox>
     </Link>

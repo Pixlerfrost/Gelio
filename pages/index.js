@@ -7,7 +7,7 @@ function Home() {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>MGY-Tech | Web design agency</title>
+        <title>Gelio</title>
         <meta name="description" content="MGY-Tech | Web design agency" />
         <meta name="author" content="Mohamad Youness" />
 
