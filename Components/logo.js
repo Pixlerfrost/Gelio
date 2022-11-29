@@ -22,15 +22,6 @@ const Logo = () => {
     <Link href="/">
       <LogoBox>
         <Image src="/Logo_white.png" width={10} height={10} alt="logo" mr="2" />
-        <Text
-          fontSize={25}
-          color="white"
-          fontFamily="'M PLUS Rounded 1c'"
-          fontWeight="bold"
-          className="m"
-        >
-          Gelio
-        </Text>
       </LogoBox>
     </Link>
   );

@@ -1,4 +1,4 @@
-import { Text, Stack, Link, Button, Heading } from "@chakra-ui/react";
+import { Text, Stack, Link, Button, Heading, Box } from "@chakra-ui/react";
 
 import Head from "next/head";
 
@@ -8,11 +8,11 @@ function Home() {
       <Stack
         justify="center"
         align="center"
-        h="100vh"
-        w="100vw"
         background="#050505"
         direction="column"
         display="flex"
+        minH="100vh"
+        w="100vw"
       >
         <Heading
           fontSize={{ base: 53, md: 100 }}
@@ -21,6 +21,7 @@ function Home() {
           textAlign="center"
           fontFamily="agrandir"
           color="white"
+          p="5"
         >
           Web Design & Development.
         </Heading>
@@ -29,11 +30,11 @@ function Home() {
           fontFamily="'M PLUS Rounded 1c'"
           fontSize={{ base: 16, md: 23 }}
           color="white"
+          pb="5"
         >
           A website to fullfill your heart&apos;s desires
         </Text>
       </Stack>
-
       <Stack
         direction="column"
         display="flex"
@@ -41,16 +42,17 @@ function Home() {
         align="center"
         background="white"
         overflow="hidden"
-        h="100vh"
+        minH="100vh"
         w="100vw"
+        p="5s"
       >
         <Heading
           fontFamily="agrandir"
           fontSize={{ base: 40, md: 80 }}
           maxW="container.md"
+          overflow="hidden"
           color="#8255ff"
           textAlign="center"
-          mb="3vh"
         >
           We make websites the right way.
         </Heading>
@@ -79,6 +81,8 @@ function Home() {
           </Button>
         </Link>
       </Stack>
+
+      <Stack background="white" h="100vh" w="100vw"></Stack>
     </>
   );
 }
