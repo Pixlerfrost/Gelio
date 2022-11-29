@@ -28,7 +28,7 @@ function Home() {
         <Text
           fontWeight="bold"
           fontFamily="'M PLUS Rounded 1c'"
-          fontSize={{ base: 16, md: 23 }}
+          fontSize={{ base: 20, md: 23 }}
           color="white"
           w="40vw"
           textAlign="center"
