@@ -13,16 +13,15 @@ function Home() {
         display="flex"
         minH="100vh"
         w="100vw"
-        overflow="hidden"
       >
         <Heading
-          fontSize={{ base: 40, md: 100 }}
+          fontSize={{ base: 53, md: 100 }}
           overflow="hidden"
           maxW="container.md"
           textAlign="center"
           fontFamily="agrandir"
           color="white"
-          pt="5"
+          p="5"
         >
           Web Design & Development.
         </Heading>
@@ -31,7 +30,7 @@ function Home() {
           fontFamily="'M PLUS Rounded 1c'"
           fontSize={{ base: 16, md: 23 }}
           color="white"
-          w="55vw"
+          w="40vw"
           textAlign="center"
           pb="5"
         >
@@ -47,6 +46,7 @@ function Home() {
         overflow="hidden"
         minH="100vh"
         w="100vw"
+        p="5"
       >
         <Heading
           fontFamily="agrandir"
@@ -84,7 +84,7 @@ function Home() {
         </Link>
       </Stack>
 
-      <Stack background="white" h="100vh" w="100vw" overflow="hidden"></Stack>
+      <Stack background="white" h="100vh" w="100vw"></Stack>
     </>
   );
 }
