@@ -30,7 +30,7 @@ function Home() {
           fontFamily="'M PLUS Rounded 1c'"
           fontSize={{ base: 20, md: 23 }}
           color="white"
-          w="60vw"
+          w="70vw"
           textAlign="center"
           pb="5"
         >
