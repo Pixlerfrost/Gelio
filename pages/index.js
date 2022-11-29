@@ -12,11 +12,9 @@ function Home() {
         direction="column"
         display="flex"
         minH="100vh"
-        w="100vw"
       >
         <Heading
           fontSize={{ base: 40, md: 100 }}
-          overflow="hidden"
           maxW="container.md"
           textAlign="center"
           fontFamily="agrandir"
@@ -30,7 +28,7 @@ function Home() {
           fontFamily="'M PLUS Rounded 1c'"
           fontSize={{ base: 16, md: 23 }}
           color="white"
-          w="40vw"
+          w="55vw"
           textAlign="center"
           pb="5"
         >
@@ -43,16 +41,12 @@ function Home() {
         justify="center"
         align="center"
         background="white"
-        overflow="hidden"
         minH="100vh"
-        w="100vw"
-        p="5"
       >
         <Heading
           fontFamily="agrandir"
           fontSize={{ base: 40, md: 80 }}
           maxW="container.md"
-          overflow="hidden"
           color="#8255ff"
           textAlign="center"
         >
@@ -64,12 +58,11 @@ function Home() {
           fontFamily="'M PLUS Rounded 1c'"
           fontSize={{ base: 18, md: 25 }}
           maxW={{ base: "90vw", md: "container.sm" }}
-          overflow="hidden"
         >
           Stop wasting your time and money on uninspiring designs. It&apos;s
           time to get back what you put in.
         </Text>
-        <Link href="contact_us" color="white" overflow="hidden">
+        <Link href="contact_us" color="white">
           <Button
             borderRadius="3xl"
             background="#8255ff"
@@ -83,8 +76,6 @@ function Home() {
           </Button>
         </Link>
       </Stack>
-
-      <Stack background="white" h="100vh" w="100vw"></Stack>
     </>
   );
 }
