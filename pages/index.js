@@ -15,13 +15,12 @@ function Home() {
         w="100vw"
       >
         <Heading
-          fontSize={{ base: 53, md: 100 }}
+          fontSize={{ base: 50, md: 100 }}
           overflow="hidden"
           maxW="container.md"
           textAlign="center"
           fontFamily="agrandir"
           color="white"
-          p="5"
         >
           Web Design & Development.
         </Heading>
@@ -30,7 +29,7 @@ function Home() {
           fontFamily="'M PLUS Rounded 1c'"
           fontSize={{ base: 20, md: 23 }}
           color="white"
-          w="70vw"
+          w="75vw"
           textAlign="center"
           pb="5"
         >
@@ -46,7 +45,6 @@ function Home() {
         overflow="hidden"
         minH="100vh"
         w="100vw"
-        p="5"
       >
         <Heading
           fontFamily="agrandir"
@@ -55,6 +53,7 @@ function Home() {
           overflow="hidden"
           color="#8255ff"
           textAlign="center"
+          pt="10vh"
         >
           We make websites the right way.
         </Heading>
