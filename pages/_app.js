@@ -16,8 +16,7 @@ function MyApp({ Component, pageProps }) {
 
         <link
           rel="shortcut icon"
-          href="/Logo.
-png"
+          href="/Logo.png"
           type="image/x-icon"
         />
       </Head>
