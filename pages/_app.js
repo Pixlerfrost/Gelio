@@ -14,7 +14,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="MGY-Tech | Web design agency" />
         <meta name="author" content="Mohamad Youness" />
 
-        <link rel="shortcut icon" href="/Logo_white.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/Logo.
+png" type="image/x-icon" />
       </Head>
       <ChakraProvider theme={theme}>
         <Navbar />
