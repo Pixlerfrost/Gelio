@@ -20,7 +20,10 @@ a {
 }
 
 body {
-  background: white;
+  padding: 0; 
+  margin: 0;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, sans-serif;
+
 }
 
 .n {

@@ -11,7 +11,7 @@ function Home() {
         background="#050505"
         direction="column"
         display="flex"
-        minH="100vh"
+        minH="92vh"
         w="100vw"
       >
         <Heading
@@ -19,19 +19,17 @@ function Home() {
           overflow="hidden"
           maxW="container.md"
           textAlign="center"
-          fontFamily="agrandir"
           color="white"
         >
           Web Design & Development.
         </Heading>
         <Text
           fontWeight="bold"
-          fontFamily="'M PLUS Rounded 1c'"
           fontSize={{ base: 20, md: 23 }}
           color="white"
           w="75vw"
           textAlign="center"
-          pb="5"
+          p="5"
         >
           A website to fullfill your heart&apos;s desires
         </Text>
@@ -47,13 +45,13 @@ function Home() {
         w="100vw"
       >
         <Heading
-          fontFamily="agrandir"
           fontSize={{ base: 40, md: 80 }}
           maxW="container.md"
           overflow="hidden"
           color="#8255ff"
           textAlign="center"
           pt="10vh"
+          pb="2vh"
         >
           We make websites the right way.
         </Heading>
