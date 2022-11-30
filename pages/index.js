@@ -1,7 +1,5 @@
 import { Text, Stack, Link, Button, Heading, Box } from "@chakra-ui/react";
 
-import Head from "next/head";
-
 function Home() {
   return (
     <>
@@ -80,7 +78,6 @@ function Home() {
           </Button>
         </Link>
       </Stack>
-
       <Stack background="white" h="100vh" w="100vw"></Stack>
     </>
   );
