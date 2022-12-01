@@ -24,7 +24,7 @@ function Home() {
           Web Design &
           <Text
             overflow="hidden"
-            bgGradient="linear(to-l, purple.500,  blue.500)"
+            bgGradient="linear(to-l, red.500,  yellow.500)"
             bgClip="text"
             pb="1vh"
           >
