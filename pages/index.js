@@ -19,15 +19,15 @@ function Home() {
           textAlign="center"
           color="white"
         >
+          Web Design &
           <Text
             overflow="hidden"
             bgGradient="linear(to-r, teal.300, blue.500,  purple.400)"
             bgClip="text"
             pb="1vh"
           >
-            Web Design &
+            Development
           </Text>{" "}
-          Development.
         </Heading>
         <Text
           fontWeight="bold"
