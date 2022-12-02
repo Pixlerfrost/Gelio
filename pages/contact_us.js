@@ -57,9 +57,9 @@ export function Contact_Page() {
 
   const toast = useToast();
   return (
-    <Box background="#050505" h="100vh">
-      <Container mt="15vh">
-        <Flex height="100vh" as="section-title">
+    <Box background="#050505" minH="92vh" overflow="hidden">
+      <Container mt="8vh" overflow="hidden">
+        <Flex as="section-title">
           <Flex direction="column" m={5} background="-dark" p={12} rounded={6}>
             <form ref={form} onSubmit={sendEmail}>
               <Heading
@@ -120,7 +120,7 @@ export function Contact_Page() {
                 mb={6}
                 _placeholder={{ opacity: 1, color: "gray.500" }}
               />
-              <Button colorScheme="teal" type="submit" value="send">
+              <Button colorScheme="purple" type="submit" value="send">
                 Send
               </Button>
             </form>
