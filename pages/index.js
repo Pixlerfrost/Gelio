@@ -22,12 +22,7 @@ function Home() {
           color="white"
         >
           Web Design &
-          <Text
-            overflow="hidden"
-            bgGradient="linear(to-r, red.500, yellow.500)"
-            bgClip="text"
-            pb="1vh"
-          >
+          <Text overflow="hidden" color="#8255ff" pb="1vh">
             Development
           </Text>{" "}
         </Heading>
