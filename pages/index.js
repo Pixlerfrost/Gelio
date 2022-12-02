@@ -74,7 +74,7 @@ function Home() {
           time to get back what you put in.
         </Text>
         <Link href="contact_us" color="white" overflow="hidden" _hover="hidden">
-          <Button mt="2vh" colorScheme="purple" textColor="white">
+          <Button mt="2vh" colorScheme="purple" textColor="black">
             Contact us!
           </Button>
         </Link>
