@@ -73,19 +73,8 @@ function Home() {
           Stop wasting your time and money on uninspiring designs. It&apos;s
           time to get back what you put in.
         </Text>
-        <Link href="contact_us" color="white" overflow="hidden">
-          <Button
-            borderRadius="3xl"
-            background="black"
-            color="white"
-            border="2px"
-            borderColor="#8255ff"
-            _hover="none"
-            fontSize="17px"
-            padding="6"
-            mt="3vh"
-            fontWeight="500"
-          >
+        <Link href="contact_us" color="white" overflow="hidden" _hover="hidden">
+          <Button mt="2vh" colorScheme="purple" textColor="black">
             Contact us!
           </Button>
         </Link>
