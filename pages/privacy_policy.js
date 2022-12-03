@@ -1,10 +1,15 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 
 function Privacy_Policy() {
   return (
     <>
-      <Box background="#050505" p="8vh">
-        <Text w="90vw" fontWeight="bold" textAlign="center">
+      <Flex background="#050505" p="8vh" justify="center" align="center">
+        <Text
+          w="container.lg"
+          fontWeight="bold"
+          textAlign="center"
+          color="white"
+        >
           PRIVACY NOTICE Last updated December 03, 2022 This privacy notice for
           __________ (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or
           &quot;our&quot;), describes how and why we might collect, store, use,
@@ -402,7 +407,7 @@ function Privacy_Policy() {
           Termly&apos;s Privacy Policy Generator. Custom Branding Hide “Powered
           by Termly” logo Customize Policy Style Theme
         </Text>
-      </Box>
+      </Flex>
     </>
   );
 }

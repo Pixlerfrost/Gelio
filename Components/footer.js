@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       <Stack
-        w="100vw"
+        minW="100vw"
         minH="10vh"
         direction={"row"}
         background="#050505"

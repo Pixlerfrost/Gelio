@@ -57,7 +57,7 @@ export function Contact_Page() {
 
   const toast = useToast();
   return (
-    <Box background="#050505" minH="82vh" overflow="hidden">
+    <Box background="#050505" minH="92vh" overflow="hidden">
       <Container mt="8vh" overflow="hidden">
         <Flex as="section-title">
           <Flex direction="column" m={5} background="-dark" p={12} rounded={6}>
@@ -120,7 +120,7 @@ export function Contact_Page() {
                 border="2px"
                 borderColor="white"
                 required
-                h="20vh"
+                minH={{ md: "30vh", base: "20vh" }}
                 pl={{ md: "2vw", base: "5vw" }}
                 pt={{ md: "2vh", base: "2vw" }}
               />
