@@ -23,7 +23,8 @@ function MyApp({ Component, pageProps }) {
         <Fonts />
 
         <Component {...pageProps} />
-        {/* <Footer /> */}
+
+        <Footer />
       </ChakraProvider>
     </>
   );
