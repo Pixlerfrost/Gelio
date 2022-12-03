@@ -2,8 +2,6 @@ import { Text, Stack, Link, Button, Heading, Box } from "@chakra-ui/react";
 import { motion, useScroll } from "framer-motion";
 
 function Home() {
-  const { scrollYProgress } = useScroll();
-
   return (
     <>
       <Box>
@@ -92,7 +90,7 @@ function Home() {
               border="2px"
               borderColor="#8255ff"
               _hover="none"
-              fontSize="17px"
+              fontSize={{ base: "13px", md: "17px" }}
               padding={{ base: 3, md: 6 }}
               mt="3vh"
               fontWeight="500"

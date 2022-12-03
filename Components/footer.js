@@ -1,5 +1,5 @@
-import { Stack, Box, Heading, Link } from "@chakra-ui/react";
-import Logo from "../Components/logo";
+import { Stack, Box, Text, Link } from "@chakra-ui/react";
+import Logo2 from "../Components/logo_2";
 
 function Footer() {
   return (
@@ -12,8 +12,25 @@ function Footer() {
         justify="center"
         align="center"
       >
-        <Logo />
-        <Link></Link>
+        <Logo2 />
+
+        <Text fontSize="md" color="white">
+          <Link href="privacy_policy" paddingX="1vw">
+            Privacy Policy
+          </Link>
+          <Link href="/" paddingX="1vw">
+            Twitter
+          </Link>
+          <Link href="/" paddingX="1vw">
+            Instagram
+          </Link>
+          <Link href="/" paddingX="1vw">
+            Github
+          </Link>
+          <Link href="/" paddingX="1vw">
+            LinkedIn
+          </Link>
+        </Text>
       </Stack>
     </>
   );
