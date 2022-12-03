@@ -1,4 +1,5 @@
 import { Text, Stack, Link, Button, Heading, Box } from "@chakra-ui/react";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
@@ -14,18 +15,24 @@ function Home() {
         borderBottom="2px"
         borderColor="#202023"
       >
-        <Heading
-          fontSize={{ base: 50, md: 100 }}
-          overflow="hidden"
-          maxW="container.md"
-          textAlign="center"
-          color="white"
+        <motion.div
+          initial={{ scale: 0, y: -100 }}
+          animate={{ scale: 1, y: 0 }}
+          transition="0.55"
         >
-          Web Design &
-          <Text overflow="hidden" color="#8255ff" pb="1vh">
-            Development
-          </Text>{" "}
-        </Heading>
+          <Heading
+            fontSize={{ base: 50, md: 100 }}
+            overflow="hidden"
+            maxW="container.md"
+            textAlign="center"
+            color="white"
+          >
+            Web Design &
+            <Text overflow="hidden" color="#8255ff" pb="1vh">
+              Development
+            </Text>{" "}
+          </Heading>
+        </motion.div>
         <Text
           fontSize={{ base: 20, md: 23 }}
           color="#888"
@@ -77,7 +84,7 @@ function Home() {
             borderColor="#8255ff"
             _hover="none"
             fontSize="17px"
-            padding="6"
+            padding={{ base: 3, md: 6 }}
             mt="3vh"
             fontWeight="500"
           >

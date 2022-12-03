@@ -4,6 +4,7 @@ import Fonts from "../Components/fonts";
 import Navbar from "../Components/navbar";
 import theme from "../Components/theme";
 import Head from "next/head";
+import Footer from "../Components/footer";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -22,6 +23,7 @@ function MyApp({ Component, pageProps }) {
         <Fonts />
 
         <Component {...pageProps} />
+        {/* <Footer /> */}
       </ChakraProvider>
     </>
   );
