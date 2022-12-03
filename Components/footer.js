@@ -11,6 +11,7 @@ function Footer() {
         background="#050505"
         justify="center"
         align="center"
+        pb={{ base: "5vh" }}
       >
         <Logo2 />
 

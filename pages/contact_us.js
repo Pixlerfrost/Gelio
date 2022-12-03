@@ -57,7 +57,7 @@ export function Contact_Page() {
 
   const toast = useToast();
   return (
-    <Box background="#050505" minH="92vh" overflow="hidden">
+    <Box background="#050505" minH="82vh" overflow="hidden">
       <Container mt="8vh" overflow="hidden">
         <Flex as="section-title">
           <Flex direction="column" m={5} background="-dark" p={12} rounded={6}>
@@ -71,56 +71,65 @@ export function Contact_Page() {
                 Contact Us
               </Heading>
               <Input
-                background="#202023"
+                background="black"
                 name="name"
                 id="name"
-                placeholder="Name"
+                placeholder="Company Name"
                 variant="filled"
                 mb={6}
                 type="text"
                 color="white"
                 _hover="hidden"
-                _placeholder={{ opacity: 1, color: "gray.500" }}
+                _placeholder={{ opacity: 1, color: "#888" }}
+                border="2px"
+                borderColor="white"
+                required
+                borderRadius="2xl"
+                pl="2vw"
               />
               <Input
-                background="#202023"
+                background="black"
                 name="email"
                 id="email"
-                placeholder="Email"
+                placeholder="Your E-mail"
                 variant="filled"
                 textColor="white"
                 mb={6}
                 _hover="hidden"
                 type="email"
-                _placeholder={{ opacity: 1, color: "gray.500" }}
-              />
-              <Input
-                background="#202023"
-                name="subject"
-                id="subject"
-                placeholder="Subject"
-                variant="filled"
-                text
-                textColor="white"
-                mb={6}
-                type="text"
-                _hover="hidden"
-                _placeholder={{ opacity: 1, color: "gray.500" }}
+                _placeholder={{ opacity: 1, color: "#888" }}
+                border="2px"
+                borderColor="white"
+                required
+                borderRadius="2xl"
+                pl="2vw"
               />
 
               <Textarea
-                background="#202023"
+                background="black"
+                borderRadius="2xl"
                 name="message"
                 text
                 textColor="white"
                 id="message"
-                placeholder="Message"
+                placeholder="Additional Information"
                 variant="filled"
                 _hover="hidden"
                 mb={6}
-                _placeholder={{ opacity: 1, color: "gray.500" }}
+                _placeholder={{ opacity: 1, color: "#888" }}
+                border="2px"
+                borderColor="white"
+                required
+                h="20vh"
+                pl="2vw"
+                pt="2vh"
               />
-              <Button colorScheme="purple" type="submit" value="send">
+              <Button
+                align="center"
+                colorScheme="purple"
+                type="submit"
+                value="send"
+              >
                 Send
               </Button>
             </form>
