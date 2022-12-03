@@ -85,7 +85,7 @@ export function Contact_Page() {
                 borderColor="white"
                 required
                 borderRadius="2xl"
-                pl="2vw"
+                pl={{ md: "2vw", base: "6vw" }}
               />
               <Input
                 background="black"
@@ -102,7 +102,7 @@ export function Contact_Page() {
                 borderColor="white"
                 required
                 borderRadius="2xl"
-                pl="2vw"
+                pl={{ md: "2vw", base: "6vw" }}
               />
 
               <Textarea
@@ -121,8 +121,8 @@ export function Contact_Page() {
                 borderColor="white"
                 required
                 h="20vh"
-                pl="2vw"
-                pt="2vh"
+                pl={{ md: "2vw", base: "5vw" }}
+                pt={{ md: "2vh", base: "2vw" }}
               />
               <Button
                 align="center"
