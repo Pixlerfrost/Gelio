@@ -1,7 +1,9 @@
 import { Text, Stack, Link, Button, Heading, Box } from "@chakra-ui/react";
-import { motion } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 
 function Home() {
+  const { scrollYProgress } = useScroll();
+
   return (
     <>
       <Box>
@@ -17,9 +19,9 @@ function Home() {
           borderColor="#202023"
         >
           <motion.div
-            initial={{ scale: 0, y: -100 }}
-            animate={{ scale: 1, y: 0 }}
-            transition="0.55"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={1}
           >
             <Heading
               fontSize={{ base: 50, md: 100 }}
@@ -54,18 +56,24 @@ function Home() {
           minH="100vh"
           w="100vw"
         >
-          <Heading
-            fontSize={{ base: 40, md: 80 }}
-            maxW="container.md"
-            overflow="hidden"
-            color="#8255ff"
-            textAlign="center"
-            pt="10vh"
-            fontWeight="extrabold"
-            pb="2vh"
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={1}
           >
-            We make websites the right way.
-          </Heading>
+            <Heading
+              fontSize={{ base: 40, md: 80 }}
+              maxW="container.md"
+              overflow="hidden"
+              color="#8255ff"
+              textAlign="center"
+              pt="10vh"
+              fontWeight="extrabold"
+              pb="2vh"
+            >
+              We make websites the right way.
+            </Heading>
+          </motion.div>
           <Text
             textAlign="center"
             color="#888"
