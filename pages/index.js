@@ -1,14 +1,3 @@
-import {
-  Text,
-  Stack,
-  Link,
-  Button,
-  Heading,
-  Box,
-  Image,
-  Flex,
-} from "@chakra-ui/react";
-import { motion } from "framer-motion";
 import Hero from "../Components/hero";
 import About_us from "../Components/about_us";
 import Contact_Us_Hero from "../Components/contact_us_hero";
