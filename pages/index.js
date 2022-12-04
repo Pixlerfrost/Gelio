@@ -168,7 +168,7 @@ function Home() {
         </motion.div>
         <Stack>
           <Image
-            src="/My_bird.webp"
+            src="/My_bird.ico"
             alt="profile"
             borderRadius="full"
             w="100px"
