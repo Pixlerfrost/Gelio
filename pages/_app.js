@@ -29,11 +29,11 @@ function MyApp({ Component, pageProps }) {
             animate="animateState"
             exit="exitState"
             transition={{
-              duration: 0.4,
+              duration: 0.75,
             }}
             variants={{
               initialState: {
-                opacity: 0,
+                opacity: 0.5,
               },
               animateState: {
                 opacity: 1,
