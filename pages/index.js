@@ -1,5 +1,5 @@
 import { Text, Stack, Link, Button, Heading, Box } from "@chakra-ui/react";
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
@@ -72,24 +72,31 @@ function Home() {
               We make websites the right way.
             </Heading>
           </motion.div>
-          <Text
-            textAlign="center"
-            color="#888"
-            fontSize={{ base: 18, md: 22 }}
-            maxW={{ base: "90vw", md: "container.sm" }}
-            overflow="hidden"
+          <motion.div
+            initial={{ x: 200, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5 }}
           >
-            Stop wasting your time and money on uninspiring designs. It&apos;s
-            time to get back what you put in.
-          </Text>
-          <Link href="contact_us" color="white" overflow="hidden">
+            <Text
+              textAlign="center"
+              color="#888"
+              fontSize={{ base: 18, md: 22 }}
+              maxW={{ base: "90vw", md: "container.sm" }}
+              overflow="hidden"
+            >
+              Stop wasting your time and money on uninspiring designs. It&apos;s
+              time to get back what you put in.
+            </Text>
+          </motion.div>
+
+          <Link href="contact_us" color="white" _hover="none" overflow="hidden">
             <Button
               borderRadius="3xl"
               background="black"
               color="white"
               border="2px"
               borderColor="#8255ff"
-              _hover="none"
+              _hover={{ color: "#8255ff" }}
               fontSize={{ base: "13px", md: "17px" }}
               padding={{ base: 3, md: 6 }}
               mt="3vh"

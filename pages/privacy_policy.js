@@ -4,40 +4,41 @@ function Privacy_Policy() {
   return (
     <>
       <Flex background="#050505" p="8vh" justify="center" align="center">
-        <Text minW="full" fontWeight="bold" textAlign="center" color="white">
-          PRIVACY NOTICE Last updated December 03, 2022 This privacy notice for
-          __________ (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or
-          &quot;our&quot;), describes how and why we might collect, store, use,
-          and/or share (&quot;process&quot;) your information when you use our
-          services (&quot;Services&quot;), such as when you: Visit our website
-          at gelio.vercel.app, or any website of ours that links to this privacy
-          notice Engage with us in other related ways, including any sales,
-          marketing, or events Questions or concerns? Reading this privacy
-          notice will help you understand your privacy rights and choices. If
-          you do not agree with our policies and practices, please do not use
-          our Services. If you still have any questions or concerns, please
-          contact us at __________. SUMMARY OF KEY POINTS This summary provides
-          key points from our privacy notice, but you can find out more details
-          about any of these topics by clicking the link following each key
-          point or by using our table of contents below to find the section you
-          are looking for. You can also click here to go directly to our table
-          of contents. What personal information do we process? When you visit,
-          use, or navigate our Services, we may process personal information
-          depending on how you interact with __________ and the Services, the
-          choices you make, and the products and features you use. Click here to
-          learn more. Do we process any sensitive personal information? We do
-          not process sensitive personal information. Do we receive any
-          information from third parties? We do not receive any information from
-          third parties. How do we process your information? We process your
-          information to provide, improve, and administer our Services,
-          communicate with you, for security and fraud prevention, and to comply
-          with law. We may also process your information for other purposes with
-          your consent. We process your information only when we have a valid
-          legal reason to do so. Click here to learn more. In what situations
-          and with which parties do we share personal information? We may share
-          information in specific situations and with specific third parties.
-          Click here to learn more. How do we keep your information safe? We
-          have organizational and technical processes and procedures in place to
+        <Text minW="full" color="white" textAlign="center" lineHeight="taller">
+          PRIVACY NOTICE Last updated December 03, 2022 <br />
+          This privacy notice for Gelio (&quot;Company,&quot; &quot;we,&quot;
+          &quot;us,&quot; or &quot;our&quot;), describes how and why we might
+          collect, store, use, and/or share (&quot;process&quot;) your
+          information when you use our services (&quot;Services&quot;), such as
+          when you: Visit our website at gelio.vercel.app, or any website of
+          ours that links to this privacy notice Engage with us in other related
+          ways, including any sales, marketing, or events Questions or concerns?
+          Reading this privacy notice will help you understand your privacy
+          rights and choices. If you do not agree with our policies and
+          practices, please do not use our Services. If you still have any
+          questions or concerns, please contact us at m4younness@gmail.
+          <br /> SUMMARY OF KEY POINTS. <br /> This summary provides key points
+          from our privacy notice, but you can find out more details about any
+          of these topics by clicking the link following each key point or by
+          using our table of contents below to find the section you are looking
+          for. You can also click here to go directly to our table of contents.
+          What personal information do we process? When you visit, use, or
+          navigate our Services, we may process personal information depending
+          on how you interact with Gelio and the Services, the choices you make,
+          and the products and features you use. Click here to learn more. Do we
+          process any sensitive personal information? We do not process
+          sensitive personal information. Do we receive any information from
+          third parties? We do not receive any information from third parties.
+          How do we process your information? We process your information to
+          provide, improve, and administer our Services, communicate with you,
+          for security and fraud prevention, and to comply with law. We may also
+          process your information for other purposes with your consent. We
+          process your information only when we have a valid legal reason to do
+          so. Click here to learn more. In what situations and with which
+          parties do we share personal information? We may share information in
+          specific situations and with specific third parties. Click here to
+          learn more. How do we keep your information safe? We have
+          organizational and technical processes and procedures in place to
           protect your personal information. However, no electronic transmission
           over the internet or information storage technology can be guaranteed
           to be 100% secure, so we cannot promise or guarantee that hackers,
@@ -50,32 +51,33 @@ function Privacy_Policy() {
           your rights? The easiest way to exercise your rights is by filling out
           our data subject request form available here, or by contacting us. We
           will consider and act upon any request in accordance with applicable
-          data protection laws. Want to learn more about what __________ does
-          with any information we collect? Click here to review the notice in
-          full. TABLE OF CONTENTS 1. WHAT INFORMATION DO WE COLLECT? 2. HOW DO
-          WE PROCESS YOUR INFORMATION? 3. WHAT LEGAL BASES DO WE RELY ON TO
-          PROCESS YOUR PERSONAL INFORMATION? 4. WHEN AND WITH WHOM DO WE SHARE
-          YOUR PERSONAL INFORMATION? 5. DO WE USE COOKIES AND OTHER TRACKING
-          TECHNOLOGIES? 6. HOW LONG DO WE KEEP YOUR INFORMATION? 7. HOW DO WE
-          KEEP YOUR INFORMATION SAFE? 8. WHAT ARE YOUR PRIVACY RIGHTS? 9.
+          data protection laws. Want to learn more about what Gelio does with
+          any information we collect? Click here to review the notice in full.
+          <br /> TABLE OF CONTENTS <br /> 1. WHAT INFORMATION DO WE COLLECT? 2.
+          HOW DO WE PROCESS YOUR INFORMATION? 3. WHAT LEGAL BASES DO WE RELY ON
+          TO PROCESS YOUR PERSONAL INFORMATION? 4. WHEN AND WITH WHOM DO WE
+          SHARE YOUR PERSONAL INFORMATION? 5. DO WE USE COOKIES AND OTHER
+          TRACKING TECHNOLOGIES? 6. HOW LONG DO WE KEEP YOUR INFORMATION? 7. HOW
+          DO WE KEEP YOUR INFORMATION SAFE? 8. WHAT ARE YOUR PRIVACY RIGHTS? 9.
           CONTROLS FOR DO-NOT-TRACK FEATURES 10. DO CALIFORNIA RESIDENTS HAVE
           SPECIFIC PRIVACY RIGHTS? 11. DO WE MAKE UPDATES TO THIS NOTICE? 12.
           HOW CAN YOU CONTACT US ABOUT THIS NOTICE? 13. HOW CAN YOU REVIEW,
-          UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU? 1. WHAT INFORMATION DO
-          WE COLLECT? Personal information you disclose to us In Short: We
-          collect personal information that you provide to us. We collect
-          personal information that you voluntarily provide to us when you
-          express an interest in obtaining information about us or our products
-          and Services, when you participate in activities on the Services, or
-          otherwise when you contact us. Personal Information Provided by You.
-          The personal information that we collect depends on the context of
-          your interactions with us and the Services, the choices you make, and
-          the products and features you use. The personal information we collect
-          may include the following: email addresses names Sensitive
-          Information. We do not process sensitive information. All personal
-          information that you provide to us must be true, complete, and
-          accurate, and you must notify us of any changes to such personal
-          information. 2. HOW DO WE PROCESS YOUR INFORMATION? In Short: We
+          UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU? <br />
+          1. WHAT INFORMATION DO WE COLLECT? <br /> Personal information you
+          disclose to us In Short: We collect personal information that you
+          provide to us. We collect personal information that you voluntarily
+          provide to us when you express an interest in obtaining information
+          about us or our products and Services, when you participate in
+          activities on the Services, or otherwise when you contact us. Personal
+          Information Provided by You. The personal information that we collect
+          depends on the context of your interactions with us and the Services,
+          the choices you make, and the products and features you use. The
+          personal information we collect may include the following: email
+          addresses names Sensitive Information. We do not process sensitive
+          information. All personal information that you provide to us must be
+          true, complete, and accurate, and you must notify us of any changes to
+          such personal information.
+          <br /> 2. HOW DO WE PROCESS YOUR INFORMATION? <br /> In Short: We
           process your information to provide, improve, and administer our
           Services, communicate with you, for security and fraud prevention, and
           to comply with law. We may also process your information for other
@@ -90,12 +92,12 @@ function Privacy_Policy() {
           any of our offerings that allow for communication with another user.
           To save or protect an individual&apos;s vital interest. We may process
           your information when necessary to save or protect an
-          individual&apos;s vital interest, such as to prevent harm. 3. WHAT
-          LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION? In Short: We
-          only process your personal information when we believe it is necessary
-          and we have a valid legal reason (i.e., legal basis) to do so under
-          applicable law, like with your consent, to comply with laws, to
-          provide you with services to enter into or fulfill our contractual
+          individual&apos;s vital interest, such as to prevent harm. <br /> 3.
+          WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION? <br /> In
+          Short: We only process your personal information when we believe it is
+          necessary and we have a valid legal reason (i.e., legal basis) to do
+          so under applicable law, like with your consent, to comply with laws,
+          to provide you with services to enter into or fulfill our contractual
           obligations, to protect your rights, or to fulfill our legitimate
           business interests. If you are located in the EU or UK, this section
           applies to you. The General Data Protection Regulation (GDPR) and UK
@@ -143,35 +145,37 @@ function Privacy_Policy() {
           with the purposes for which the information was produced If the
           collection is solely for journalistic, artistic, or literary purposes
           If the information is publicly available and is specified by the
-          regulations 4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL
-          INFORMATION? In Short: We may share information in specific situations
-          described in this section and/or with the following third parties. We
-          may need to share your personal information in the following
-          situations: Business Transfers. We may share or transfer your
-          information in connection with, or during negotiations of, any merger,
-          sale of company assets, financing, or acquisition of all or a portion
-          of our business to another company. Affiliates. We may share your
-          information with our affiliates, in which case we will require those
-          affiliates to honor this privacy notice. Affiliates include our parent
-          company and any subsidiaries, joint venture partners, or other
-          companies that we control or that are under common control with us.
-          Business Partners. We may share your information with our business
-          partners to offer you certain products, services, or promotions. Other
-          Users. When you share personal information or otherwise interact with
-          public areas of the Services, such personal information may be viewed
-          by all users and may be publicly made available outside the Services
-          in perpetuity. Similarly, other users will be able to view
-          descriptions of your activity, communicate with you within our
-          Services, and view your profile. 5. DO WE USE COOKIES AND OTHER
-          TRACKING TECHNOLOGIES? In Short: We may use cookies and other tracking
-          technologies to collect and store your information. We may use cookies
-          and similar tracking technologies (like web beacons and pixels) to
-          access or store information. Specific information about how we use
-          such technologies and how you can refuse certain cookies is set out in
-          our Cookie Notice. 6. HOW LONG DO WE KEEP YOUR INFORMATION? In Short:
-          We keep your information for as long as necessary to fulfill the
-          purposes outlined in this privacy notice unless otherwise required by
-          law. We will only keep your personal information for as long as it is
+          regulations <br /> 4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL
+          INFORMATION? <br />
+          In Short: We may share information in specific situations described in
+          this section and/or with the following third parties. We may need to
+          share your personal information in the following situations: Business
+          Transfers. We may share or transfer your information in connection
+          with, or during negotiations of, any merger, sale of company assets,
+          financing, or acquisition of all or a portion of our business to
+          another company. Affiliates. We may share your information with our
+          affiliates, in which case we will require those affiliates to honor
+          this privacy notice. Affiliates include our parent company and any
+          subsidiaries, joint venture partners, or other companies that we
+          control or that are under common control with us. Business Partners.
+          We may share your information with our business partners to offer you
+          certain products, services, or promotions. Other Users. When you share
+          personal information or otherwise interact with public areas of the
+          Services, such personal information may be viewed by all users and may
+          be publicly made available outside the Services in perpetuity.
+          Similarly, other users will be able to view descriptions of your
+          activity, communicate with you within our Services, and view your
+          profile. <br /> 5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?{" "}
+          <br /> In Short: We may use cookies and other tracking technologies to
+          collect and store your information. We may use cookies and similar
+          tracking technologies (like web beacons and pixels) to access or store
+          information. Specific information about how we use such technologies
+          and how you can refuse certain cookies is set out in our Cookie
+          Notice.
+          <br /> 6. HOW LONG DO WE KEEP YOUR INFORMATION? <br /> In Short: We
+          keep your information for as long as necessary to fulfill the purposes
+          outlined in this privacy notice unless otherwise required by law. We
+          will only keep your personal information for as long as it is
           necessary for the purposes set out in this privacy notice, unless a
           longer retention period is required or permitted by law (such as tax,
           accounting, or other legal requirements). When we have no ongoing
@@ -180,9 +184,9 @@ function Privacy_Policy() {
           possible (for example, because your personal information has been
           stored in backup archives), then we will securely store your personal
           information and isolate it from any further processing until deletion
-          is possible. 7. HOW DO WE KEEP YOUR INFORMATION SAFE? In Short: We aim
-          to protect your personal information through a system of
-          organizational and technical security measures. We have implemented
+          is possible. <br /> 7. HOW DO WE KEEP YOUR INFORMATION SAFE? <br />
+          In Short: We aim to protect your personal information through a system
+          of organizational and technical security measures. We have implemented
           appropriate and reasonable technical and organizational security
           measures designed to protect the security of any personal information
           we process. However, despite our safeguards and efforts to secure your
@@ -194,25 +198,26 @@ function Privacy_Policy() {
           Although we will do our best to protect your personal information,
           transmission of personal information to and from our Services is at
           your own risk. You should only access the Services within a secure
-          environment. 8. WHAT ARE YOUR PRIVACY RIGHTS? In Short: In some
-          regions, such as the European Economic Area (EEA), United Kingdom
-          (UK), and Canada, you have rights that allow you greater access to and
-          control over your personal information. You may review, change, or
-          terminate your account at any time. In some regions (like the EEA, UK,
-          and Canada), you have certain rights under applicable data protection
-          laws. These may include the right (i) to request access and obtain a
-          copy of your personal information, (ii) to request rectification or
-          erasure; (iii) to restrict the processing of your personal
-          information; and (iv) if applicable, to data portability. In certain
-          circumstances, you may also have the right to object to the processing
-          of your personal information. You can make such a request by
-          contacting us by using the contact details provided in the section
-          &quot;HOW CAN YOU CONTACT US ABOUT THIS NOTICE?&quot; below. We will
-          consider and act upon any request in accordance with applicable data
-          protection laws. If you are located in the EEA or UK and you believe
-          we are unlawfully processing your personal information, you also have
-          the right to complain to your local data protection supervisory
-          authority. You can find their contact details here:
+          environment. <br /> 8. WHAT ARE YOUR PRIVACY RIGHTS? <br />
+          In Short: In some regions, such as the European Economic Area (EEA),
+          United Kingdom (UK), and Canada, you have rights that allow you
+          greater access to and control over your personal information. You may
+          review, change, or terminate your account at any time. In some regions
+          (like the EEA, UK, and Canada), you have certain rights under
+          applicable data protection laws. These may include the right (i) to
+          request access and obtain a copy of your personal information, (ii) to
+          request rectification or erasure; (iii) to restrict the processing of
+          your personal information; and (iv) if applicable, to data
+          portability. In certain circumstances, you may also have the right to
+          object to the processing of your personal information. You can make
+          such a request by contacting us by using the contact details provided
+          in the section &quot;HOW CAN YOU CONTACT US ABOUT THIS NOTICE?&quot;
+          below. We will consider and act upon any request in accordance with
+          applicable data protection laws. If you are located in the EEA or UK
+          and you believe we are unlawfully processing your personal
+          information, you also have the right to complain to your local data
+          protection supervisory authority. You can find their contact details
+          here:
           https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.
           If you are located in Switzerland, the contact details for the data
           protection authorities are available here:
@@ -234,20 +239,22 @@ function Privacy_Policy() {
           Services. To opt out of interest-based advertising by advertisers on
           our Services visit http://www.aboutads.info/choices/. If you have
           questions or comments about your privacy rights, you may email us at
-          m4youness@gmail.com. 9. CONTROLS FOR DO-NOT-TRACK FEATURES Most web
-          browsers and some mobile operating systems and mobile applications
-          include a Do-Not-Track (&quot;DNT&quot;) feature or setting you can
-          activate to signal your privacy preference not to have data about your
-          online browsing activities monitored and collected. At this stage no
-          uniform technology standard for recognizing and implementing DNT
-          signals has been finalized. As such, we do not currently respond to
-          DNT browser signals or any other mechanism that automatically
-          communicates your choice not to be tracked online. If a standard for
-          online tracking is adopted that we must follow in the future, we will
-          inform you about that practice in a revised version of this privacy
-          notice. 10. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS? In
-          Short: Yes, if you are a resident of California, you are granted
-          specific rights regarding access to your personal information.
+          m4youness@gmail.com. <br /> 9. CONTROLS FOR DO-NOT-TRACK FEATURES{" "}
+          <br />
+          Most web browsers and some mobile operating systems and mobile
+          applications include a Do-Not-Track (&quot;DNT&quot;) feature or
+          setting you can activate to signal your privacy preference not to have
+          data about your online browsing activities monitored and collected. At
+          this stage no uniform technology standard for recognizing and
+          implementing DNT signals has been finalized. As such, we do not
+          currently respond to DNT browser signals or any other mechanism that
+          automatically communicates your choice not to be tracked online. If a
+          standard for online tracking is adopted that we must follow in the
+          future, we will inform you about that practice in a revised version of
+          this privacy notice. <br /> 10. DO CALIFORNIA RESIDENTS HAVE SPECIFIC
+          PRIVACY RIGHTS?
+          <br /> In Short: Yes, if you are a resident of California, you are
+          granted specific rights regarding access to your personal information.
           California Civil Code Section 1798.83, also known as the &quot;Shine
           The Light&quot; law, permits our users who are California residents to
           request and obtain from us, once a year and free of charge,
@@ -321,23 +328,23 @@ function Privacy_Policy() {
           information for our own business purposes, such as for undertaking
           internal research for technological development and demonstration.
           This is not considered to be &quot;selling&quot; of your personal
-          information. __________ has not disclosed or sold any personal
-          information to third parties for a business or commercial purpose in
-          the preceding twelve (12) months. __________ will not sell personal
-          information in the future belonging to website visitors, users, and
-          other consumers. Your rights with respect to your personal data Right
-          to request deletion of the data — Request to delete You can ask for
-          the deletion of your personal information. If you ask us to delete
-          your personal information, we will respect your request and delete
-          your personal information, subject to certain exceptions provided by
-          law, such as (but not limited to) the exercise by another consumer of
-          his or her right to free speech, our compliance requirements resulting
-          from a legal obligation, or any processing that may be required to
-          protect against illegal activities. Right to be informed — Request to
-          know Depending on the circumstances, you have a right to know: whether
-          we collect and use your personal information; the categories of
-          personal information that we collect; the purposes for which the
-          collected personal information is used; whether we sell your personal
+          information. Gelio has not disclosed or sold any personal information
+          to third parties for a business or commercial purpose in the preceding
+          twelve (12) months. Gelio will not sell personal information in the
+          future belonging to website visitors, users, and other consumers. Your
+          rights with respect to your personal data Right to request deletion of
+          the data — Request to delete You can ask for the deletion of your
+          personal information. If you ask us to delete your personal
+          information, we will respect your request and delete your personal
+          information, subject to certain exceptions provided by law, such as
+          (but not limited to) the exercise by another consumer of his or her
+          right to free speech, our compliance requirements resulting from a
+          legal obligation, or any processing that may be required to protect
+          against illegal activities. Right to be informed — Request to know
+          Depending on the circumstances, you have a right to know: whether we
+          collect and use your personal information; the categories of personal
+          information that we collect; the purposes for which the collected
+          personal information is used; whether we sell your personal
           information to third parties; the categories of personal information
           that we sold or disclosed for a business purpose; the categories of
           third parties to whom the personal information was sold or disclosed
@@ -381,25 +388,26 @@ function Privacy_Policy() {
           exercise these rights, you can contact us by email at
           m4youness@gmail.com, or by referring to the contact details at the
           bottom of this document. If you have a complaint about how we handle
-          your data, we would like to hear from you. 11. DO WE MAKE UPDATES TO
-          THIS NOTICE? In Short: Yes, we will update this notice as necessary to
-          stay compliant with relevant laws. We may update this privacy notice
-          from time to time. The updated version will be indicated by an updated
+          your data, we would like to hear from you. <br /> 11. DO WE MAKE
+          UPDATES TO THIS NOTICE? <br />
+          In Short: Yes, we will update this notice as necessary to stay
+          compliant with relevant laws. We may update this privacy notice from
+          time to time. The updated version will be indicated by an updated
           &quot;Revised&quot; date and the updated version will be effective as
           soon as it is accessible. If we make material changes to this privacy
           notice, we may notify you either by prominently posting a notice of
           such changes or by directly sending you a notification. We encourage
           you to review this privacy notice frequently to be informed of how we
-          are protecting your information. 12. HOW CAN YOU CONTACT US ABOUT THIS
-          NOTICE? If you have questions or comments about this notice, you may
-          email us at m4youness@gmail.com or by post to: __________ __________
-          __________ 13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE
-          COLLECT FROM YOU? Based on the applicable laws of your country, you
-          may have the right to request access to the personal information we
-          collect from you, change that information, or delete it. To request to
-          review, update, or delete your personal information, please submit a
-          request form by clicking here. This privacy policy was created using
-          Termly&apos;s Privacy Policy Generator.
+          are protecting your information. <br /> 12. HOW CAN YOU CONTACT US
+          ABOUT THIS NOTICE? <br /> If you have questions or comments about this
+          notice, you may email us at m4younness@gmail.com <br /> 13. HOW CAN
+          YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU? <br />
+          Based on the applicable laws of your country, you may have the right
+          to request access to the personal information we collect from you,
+          change that information, or delete it. To request to review, update,
+          or delete your personal information, please submit a request form by
+          clicking here. This privacy policy was created using Termly&apos;s
+          Privacy Policy Generator.
         </Text>
       </Flex>
     </>

@@ -5,8 +5,11 @@ import Navbar from "../Components/navbar";
 import theme from "../Components/theme";
 import Head from "next/head";
 import Footer from "../Components/footer";
+import { motion, AnimatePresence } from "framer-motion";
+import { useRouter } from "next/router";
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
   return (
     <>
       <Head>
@@ -19,12 +22,33 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <ChakraProvider theme={theme}>
-        <Navbar />
-        <Fonts />
+        <AnimatePresence exitBeforeEnter>
+          <motion.div
+            key={router.route}
+            initial="initialState"
+            animate="animateState"
+            exit="exitState"
+            transition={{
+              duration: 0.4,
+            }}
+            variants={{
+              initialState: {
+                opacity: 0,
+              },
+              animateState: {
+                opacity: 1,
+              },
+            }}
+            className="base-page-size"
+          >
+            <Navbar />
+            <Fonts />
 
-        <Component {...pageProps} />
+            <Component {...pageProps} />
 
-        <Footer />
+            <Footer />
+          </motion.div>
+        </AnimatePresence>
       </ChakraProvider>
     </>
   );
