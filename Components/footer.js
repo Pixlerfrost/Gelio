@@ -1,5 +1,4 @@
-import { Stack, Box, Text, Link } from "@chakra-ui/react";
-import Logo2 from "../Components/logo_2";
+import { Stack, Image, Link } from "@chakra-ui/react";
 
 function Footer() {
   return (
@@ -14,7 +13,16 @@ function Footer() {
         align="center"
         pb={{ base: "5vh" }}
       >
-        <Logo2 />
+        <Link href="/">
+          <Image
+            color="white"
+            src="/Logo_white.png"
+            width="25px"
+            height="25px"
+            alt="logo"
+            mt="1"
+          />
+        </Link>
 
         <Link href="privacy_policy" paddingX="1vw" color="white">
           Privacy Policy
