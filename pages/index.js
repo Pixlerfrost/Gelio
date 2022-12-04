@@ -19,7 +19,7 @@ function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={1}
+            transition={{ ease: "easeOut", duration: 1 }}
           >
             <Heading
               fontSize={{ base: 50, md: 100 }}
@@ -57,7 +57,7 @@ function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={1}
+            transition={{ ease: "easeOut", duration: 1 }}
           >
             <Heading
               fontSize={{ base: 40, md: 80 }}

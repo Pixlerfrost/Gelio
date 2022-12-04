@@ -4,12 +4,7 @@ function Privacy_Policy() {
   return (
     <>
       <Flex background="#050505" p="8vh" justify="center" align="center">
-        <Text
-          w="container.lg"
-          fontWeight="bold"
-          textAlign="center"
-          color="white"
-        >
+        <Text minW="full" fontWeight="bold" textAlign="center" color="white">
           PRIVACY NOTICE Last updated December 03, 2022 This privacy notice for
           __________ (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or
           &quot;our&quot;), describes how and why we might collect, store, use,
@@ -404,8 +399,7 @@ function Privacy_Policy() {
           collect from you, change that information, or delete it. To request to
           review, update, or delete your personal information, please submit a
           request form by clicking here. This privacy policy was created using
-          Termly&apos;s Privacy Policy Generator. Custom Branding Hide “Powered
-          by Termly” logo Customize Policy Style Theme
+          Termly&apos;s Privacy Policy Generator.
         </Text>
       </Flex>
     </>
