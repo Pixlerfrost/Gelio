@@ -57,10 +57,10 @@ export function Contact_Page() {
 
   const toast = useToast();
   return (
-    <Box background="#050505" minH="92vh" overflow="hidden">
+    <Box background="#050505" minH="100vh" overflow="hidden">
       <Container mt="8vh" overflow="hidden">
         <Flex as="section-title">
-          <Flex direction="column" m={5} background="-dark" p={12} rounded={6}>
+          <Flex direction="column" m={5} background="-dark" rounded={6}>
             <form ref={form} onSubmit={sendEmail}>
               <Heading
                 mb={6}
@@ -85,6 +85,7 @@ export function Contact_Page() {
                 borderColor="white"
                 required
                 borderRadius="2xl"
+                minW="full"
                 pl={{ md: "2vw", base: "6vw" }}
               />
               <Input
@@ -103,6 +104,7 @@ export function Contact_Page() {
                 required
                 borderRadius="2xl"
                 pl={{ md: "2vw", base: "6vw" }}
+                minW="full"
               />
 
               <Textarea
@@ -120,16 +122,12 @@ export function Contact_Page() {
                 border="2px"
                 borderColor="white"
                 required
-                minH={{ md: "30vh", base: "20vh" }}
+                minH="16em"
                 pl={{ md: "2vw", base: "5vw" }}
                 pt={{ md: "2vh", base: "2vw" }}
+                minW="fit-content"
               />
-              <Button
-                align="center"
-                colorScheme="purple"
-                type="submit"
-                value="send"
-              >
+              <Button colorScheme="purple" type="submit" value="send">
                 Send
               </Button>
             </form>

@@ -4,18 +4,19 @@ import Logo2 from "../Components/logo_2";
 function Footer() {
   return (
     <>
-      <Stack
-        minW="100vw"
-        minH="10vh"
-        direction={"row"}
-        background="#050505"
-        justify="center"
-        align="center"
-        pb={{ base: "5vh" }}
-      >
-        <Logo2 />
+      <Stack>
+        <Stack
+          direction="row"
+          background="#050505"
+          display="flex"
+          flexWrap="wrap"
+          justify="center"
+          p="6"
+          align="center"
+          pb={{ base: "5vh" }}
+        >
+          <Logo2 />
 
-        <Text fontSize="md" color="white">
           <Link href="privacy_policy" paddingX="1vw">
             Privacy Policy
           </Link>
@@ -31,7 +32,7 @@ function Footer() {
           <Link href="/" paddingX="1vw">
             LinkedIn
           </Link>
-        </Text>
+        </Stack>
       </Stack>
     </>
   );
