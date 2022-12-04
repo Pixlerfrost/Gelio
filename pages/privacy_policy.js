@@ -165,13 +165,24 @@ function Privacy_Policy() {
           be publicly made available outside the Services in perpetuity.
           Similarly, other users will be able to view descriptions of your
           activity, communicate with you within our Services, and view your
-          profile. <br /> 5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?{" "}
-          <br /> In Short: We may use cookies and other tracking technologies to
-          collect and store your information. We may use cookies and similar
-          tracking technologies (like web beacons and pixels) to access or store
-          information. Specific information about how we use such technologies
-          and how you can refuse certain cookies is set out in our Cookie
-          Notice.
+          profile.
+          <br />
+          5. COOKIES & ANALYSIS TOOLS <br />
+          Our website uses cookies that are absolutely necessary for the
+          structure or functioning of the website (technically necessary
+          cookies). These cookies cannot be deactivated. Cookies are small text
+          files that are temporarily stored on your end device with the help of
+          the browser and / or that your browser saves. They do not cause any
+          harm, but make the use of the website more user-friendly. The cookies
+          are deleted when you close the browser and do not remain stored on
+          your computer. We do not use &auot;persistent cookies&auot;. The
+          storage period of the respective cookies depends on the duration of
+          the respective platform session. We are using the web analytics
+          service &quot;Fathom Analytics&quot; based on our legitimate interests
+          (Article 6 para 1 letter f GDPR) in order to continuously optimise our
+          offer, both technically and in terms of content. Fathom Analytics is a
+          trademark of Conva Ventures Inc. BOX 37058 Millstream PO, Victoria,
+          BC, V9B 0E8, Canada (&quot;Fathom&quot;).
           <br /> 6. HOW LONG DO WE KEEP YOUR INFORMATION? <br /> In Short: We
           keep your information for as long as necessary to fulfill the purposes
           outlined in this privacy notice unless otherwise required by law. We
