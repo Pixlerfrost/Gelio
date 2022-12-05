@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
             animate="animateState"
             exit="exitState"
             transition={{
-              duration: 0.75,
+              duration: 0.25,
             }}
             variants={{
               initialState: {

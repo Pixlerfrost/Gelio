@@ -1,6 +1,5 @@
 import { Box, Flex, Button, Link, IconButton } from "@chakra-ui/react";
 import Logo from "../Components/logo";
-import { HamburgerIcon } from "@chakra-ui/icons";
 
 function Navbar() {
   return (
