@@ -22,33 +22,12 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <ChakraProvider theme={theme}>
-        <AnimatePresence exitBeforeEnter>
-          <motion.div
-            key={router.route}
-            initial="initialState"
-            animate="animateState"
-            exit="exitState"
-            transition={{
-              duration: 0.25,
-            }}
-            variants={{
-              initialState: {
-                opacity: 0,
-              },
-              animateState: {
-                opacity: 1,
-              },
-            }}
-            className="base-page-size"
-          >
-            <Navbar />
-            <Fonts />
+        <Navbar />
+        <Fonts />
 
-            <Component {...pageProps} />
+        <Component {...pageProps} />
 
-            <Footer />
-          </motion.div>
-        </AnimatePresence>
+        <Footer />
       </ChakraProvider>
     </>
   );
