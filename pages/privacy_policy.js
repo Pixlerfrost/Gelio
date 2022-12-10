@@ -5,7 +5,7 @@ function Privacy_Policy() {
     <>
       <Flex
         background="#050505"
-        p={{ md: "16vh", base: "2vh" }}
+        p={{ md: "24vh", base: "2vh" }}
         justify="center"
         align="center"
       >
