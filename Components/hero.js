@@ -15,9 +15,9 @@ function Hero() {
       borderColor="#202023"
     >
       <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ ease: "easeOut", duration: 1 }}
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
       >
         <Heading
           fontSize={{ base: 50, md: 100 }}

@@ -14,8 +14,8 @@ function Our_Team() {
       color="white"
     >
       <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
         <Heading fontSize="5xl" overflow="hidden" mt="3vh" textAlign="center">

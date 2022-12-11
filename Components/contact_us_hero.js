@@ -14,9 +14,9 @@ function Contact_Us_Hero() {
       w="100vw"
     >
       <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ ease: "easeOut", duration: 1 }}
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
       >
         <Heading
           fontSize={{ base: 40, md: 80 }}
