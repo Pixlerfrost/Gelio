@@ -72,8 +72,8 @@ export function Contact_Page() {
               </Heading>
               <Input
                 background="black"
-                name="name"
-                id="name"
+                name="subject"
+                id="subject"
                 placeholder="Company Name"
                 variant="filled"
                 mb={6}
