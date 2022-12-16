@@ -18,10 +18,11 @@ const LogoBox = styled.span`
 `;
 
 const Logo = () => {
+  const logo_white = "Logo_white.png";
   return (
     <Link href="/">
       <LogoBox>
-        <Image src="/Logo_white.png" width={10} height={10} alt="logo" />
+        <Image src={logo_white} width={10} height={10} alt="logo" />
       </LogoBox>
     </Link>
   );

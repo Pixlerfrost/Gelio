@@ -15,7 +15,7 @@ function Navbar() {
     <>
       <Box w="100vw" bg="#050505" borderBottom="1px" borderColor="#202023">
         <Container maxW="container.lg" display="flex" paddingY={2}>
-          <Box position="absolute">
+          <Box position="absolute" overflow="hidden">
             <ThemeToggleButton />
           </Box>
 

@@ -1,4 +1,4 @@
-import { Text, Stack, Heading } from "@chakra-ui/react";
+import { Text, Stack, Heading, useColorModeValue } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 function Hero() {
@@ -6,7 +6,7 @@ function Hero() {
     <Stack
       justify="center"
       align="center"
-      background="#050505"
+      bg={useColorModeValue("white", "#050505")}
       direction="column"
       display="flex"
       minH="92vh"
@@ -24,7 +24,7 @@ function Hero() {
           overflow="hidden"
           maxW="container.md"
           textAlign="center"
-          color="white"
+          color={useColorModeValue("#050505", "white")}
         >
           Web Design &
           <Text overflow="hidden" color="#8255ff" pb="1vh">

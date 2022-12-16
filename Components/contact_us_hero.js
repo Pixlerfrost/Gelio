@@ -1,4 +1,11 @@
-import { Text, Stack, Link, Button, Heading, Code } from "@chakra-ui/react";
+import {
+  Text,
+  Stack,
+  Link,
+  Button,
+  Heading,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 function Contact_Us_Hero() {
@@ -8,7 +15,7 @@ function Contact_Us_Hero() {
       display="flex"
       justify="center"
       align="center"
-      background="#050505"
+      background={useColorModeValue("gray.200", "#050505")}
       overflow="hidden"
       minH="100vh"
       w="100vw"
@@ -50,16 +57,17 @@ function Contact_Us_Hero() {
 
       <Link href="contact_us" color="white" _hover="none" overflow="hidden">
         <Button
-          borderRadius="3xl"
-          background="black"
+          borderRadius="full"
+          background="#8255ff"
           color="white"
           border="2px"
           borderColor="#8255ff"
-          _hover={{ color: "#8255ff" }}
+          _hover={{ opacity: 0.9 }}
           fontSize={{ base: "13px", md: "17px" }}
           padding={{ base: 3, md: 6 }}
           mt="3vh"
           fontWeight="500"
+          variant="solid"
           mb="3"
         >
           Contact us!

@@ -1,4 +1,10 @@
-import { Text, Stack, Heading, Image } from "@chakra-ui/react";
+import {
+  Text,
+  Stack,
+  Heading,
+  Image,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 function Our_Team() {
@@ -14,8 +20,8 @@ function Our_Team() {
       color="white"
     >
       <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
         <Heading fontSize="5xl" overflow="hidden" mt="3vh" textAlign="center">
