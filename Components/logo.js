@@ -6,7 +6,7 @@ const LogoBox = styled.span`
   display: flex;
   font-weight: bold;
   padding-top: 2px;
-  padding-left: 2px;
+
   overflow: hidden;
   color: white;
   img {
