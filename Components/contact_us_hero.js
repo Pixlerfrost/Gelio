@@ -29,7 +29,7 @@ function Contact_Us_Hero() {
           fontSize={{ base: 40, md: 80 }}
           maxW="container.md"
           overflow="hidden"
-          color="#8255ff"
+          color={useColorModeValue("#fa1d53", "#8255ff")}
           textAlign="center"
           pt="10vh"
           fontWeight="extrabold"
@@ -58,11 +58,9 @@ function Contact_Us_Hero() {
       <Link href="contact_us" color="white" _hover="none" overflow="hidden">
         <Button
           borderRadius="full"
-          background="#8255ff"
+          background={useColorModeValue("#fa1d53", "#8255ff")}
           color="white"
-          border="2px"
-          borderColor="#8255ff"
-          _hover={{ opacity: 0.9 }}
+          _hover={{ opacity: 0.8 }}
           fontSize={{ base: "13px", md: "17px" }}
           padding={{ base: 3, md: 6 }}
           mt="3vh"

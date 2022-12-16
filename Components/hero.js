@@ -24,10 +24,14 @@ function Hero() {
           overflow="hidden"
           maxW="container.md"
           textAlign="center"
-          color={useColorModeValue("#050505", "white")}
+          color={useColorModeValue("#fa1d53", "white")}
         >
           Web Design &
-          <Text overflow="hidden" color="#8255ff" pb="1vh">
+          <Text
+            overflow="hidden"
+            color={useColorModeValue("#fa1d53", "#8255ff")}
+            pb="1vh"
+          >
             Development
           </Text>{" "}
         </Heading>
