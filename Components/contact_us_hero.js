@@ -55,22 +55,24 @@ function Contact_Us_Hero() {
         </Text>
       </motion.div>
 
-      <Link href="contact_us" color="white" _hover="none" overflow="hidden">
-        <Button
-          borderRadius="full"
-          background={useColorModeValue("#fa1d53", "#8255ff")}
-          color="white"
-          _hover={{ opacity: 0.8 }}
-          fontSize={{ base: "13px", md: "17px" }}
-          padding={{ base: 3, md: 6 }}
-          mt="3vh"
-          fontWeight="500"
-          variant="solid"
-          mb="3"
-        >
-          Contact us!
-        </Button>
-      </Link>
+      <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.03 }}>
+        <Link href="contact_us" color="white" _hover="none" overflow="hidden">
+          <Button
+            borderRadius="full"
+            background={useColorModeValue("#fa1d53", "#8255ff")}
+            color="white"
+            _hover={{ opacity: 0.85 }}
+            fontSize={{ base: "13px", md: "17px" }}
+            padding={{ base: 4, md: 6 }}
+            mt="3vh"
+            fontWeight="500"
+            variant="solid"
+            mb="3"
+          >
+            Contact us!
+          </Button>
+        </Link>
+      </motion.div>
     </Stack>
   );
 }

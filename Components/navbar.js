@@ -15,9 +15,9 @@ function Navbar() {
     <>
       <Box w="100vw" bg="#050505" borderBottom="1px" borderColor="#202023">
         <Container maxW="container.lg" display="flex" paddingY={2}>
-          <Box position="absolute" overflow="hidden">
+          <Flex position="absolute" overflow="hidden" pt="0.5">
             <ThemeToggleButton />
-          </Box>
+          </Flex>
 
           <Flex align="center" mx="auto">
             <Logo />

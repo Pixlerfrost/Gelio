@@ -1,10 +1,4 @@
-import {
-  Text,
-  Stack,
-  Heading,
-  Image,
-  useColorModeValue,
-} from "@chakra-ui/react";
+import { Text, Stack, Heading, Image, Link } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 function Our_Team() {
@@ -40,9 +34,11 @@ function Our_Team() {
           ml="21%"
           mt="5vh"
         />
-        <Text textAlign="center" fontWeight="bold" fontSize="xl" pt="2">
-          Mohamad Youness
-        </Text>
+        <Link href="https://mohamad.vercel.app/">
+          <Text textAlign="center" fontWeight="bold" fontSize="xl" pt="2">
+            Mohamad Youness
+          </Text>
+        </Link>
         <Text textAlign="center" fontWeight="thin" fontSize="xl">
           Founder
         </Text>

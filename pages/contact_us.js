@@ -7,6 +7,7 @@ import {
   Textarea,
   useToast,
   Box,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
@@ -127,7 +128,11 @@ export function Contact_Page() {
                 pt={{ md: "2vh", base: "2vw" }}
                 minW="fit-content"
               />
-              <Button colorScheme="purple" type="submit" value="send">
+              <Button
+                colorScheme={useColorModeValue("red", "purple")}
+                type="submit"
+                value="send"
+              >
                 Send
               </Button>
             </form>

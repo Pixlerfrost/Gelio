@@ -20,7 +20,7 @@ function Hero() {
         transition={{ duration: 1 }}
       >
         <Heading
-          fontSize={{ base: 50, md: 100 }}
+          fontSize={{ base: 52, md: 100 }}
           overflow="hidden"
           maxW="container.md"
           textAlign="center"
@@ -30,18 +30,18 @@ function Hero() {
           <Text
             overflow="hidden"
             color={useColorModeValue("#fa1d53", "#8255ff")}
-            pb="1vh"
           >
             Development
           </Text>{" "}
         </Heading>
       </motion.div>
       <Text
-        fontSize={{ base: 20, md: 23 }}
+        fontSize={{ base: 15, md: 23 }}
         color="#888"
+        fontWeight="semibold"
         w="75vw"
         textAlign="center"
-        p="5"
+        p="2"
       >
         A website to fullfill your heart&apos;s desires
       </Text>
