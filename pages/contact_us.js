@@ -129,7 +129,9 @@ export function Contact_Page() {
                 minW="fit-content"
               />
               <Button
-                colorScheme={useColorModeValue("red", "purple")}
+                bg={useColorModeValue("#fa1d53", "#8255ff")}
+                color={useColorModeValue("white", "black")}
+                _hover={{ opacity: 0.84 }}
                 type="submit"
                 value="send"
               >

@@ -60,7 +60,7 @@ function Contact_Us_Hero() {
           <Button
             borderRadius="full"
             background={useColorModeValue("#fa1d53", "#8255ff")}
-            color="white"
+            color={useColorModeValue("white", "black")}
             _hover={{ opacity: 0.85 }}
             fontSize={{ base: "13px", md: "17px" }}
             padding={{ base: 4, md: 6 }}
