@@ -17,7 +17,7 @@ function Hero() {
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1, delay: 0.1 }}
       >
         <Heading
           fontSize={{ base: 52, md: 100 }}
@@ -35,16 +35,22 @@ function Hero() {
           </Text>{" "}
         </Heading>
       </motion.div>
-      <Text
-        fontSize={{ base: 15, md: 23 }}
-        color="#888"
-        fontWeight="semibold"
-        w="75vw"
-        textAlign="center"
-        p="2"
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.2 }}
       >
-        A website to fullfill your heart&apos;s desires
-      </Text>
+        <Text
+          fontSize={{ base: 15, md: 23 }}
+          color="#888"
+          fontWeight="semibold"
+          w="75vw"
+          textAlign="center"
+          p="2"
+        >
+          A website to fullfill your heart&apos;s desires
+        </Text>
+      </motion.div>
     </Stack>
   );
 }
