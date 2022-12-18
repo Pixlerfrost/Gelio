@@ -1,15 +1,20 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex, Text, useColorModeValue } from "@chakra-ui/react";
 
 function Privacy_Policy() {
   return (
     <>
       <Flex
-        background="#050505"
+        background={useColorModeValue("gray.200", "#050505")}
         p={{ md: "24vh", base: "2vh" }}
         justify="center"
         align="center"
       >
-        <Text minW="full" color="white" textAlign="center" lineHeight="taller">
+        <Text
+          minW="full"
+          color={useColorModeValue("black", "gray.200")}
+          textAlign="center"
+          lineHeight="taller"
+        >
           PRIVACY NOTICE Last updated December 03, 2022 <br />
           This privacy notice for Gelio (&quot;Company,&quot; &quot;we,&quot;
           &quot;us,&quot; or &quot;our&quot;), describes how and why we might
