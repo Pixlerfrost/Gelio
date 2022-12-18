@@ -58,7 +58,11 @@ export function Contact_Page() {
 
   const toast = useToast();
   return (
-    <Box background="#050505" minH="100vh" overflow="hidden">
+    <Box
+      bg={useColorModeValue("gray.200", "#050505")}
+      minH="100vh"
+      overflow="hidden"
+    >
       <Container mt="8vh" overflow="hidden">
         <Flex as="section-title">
           <Flex direction="column" m={5} background="-dark" rounded={6}>
@@ -67,12 +71,12 @@ export function Contact_Page() {
                 mb={6}
                 overflow="hidden"
                 fontFamily="'M PLUS Rounded 1c'"
-                textColor="white"
+                color={useColorModeValue("#fa1d53", "white")}
               >
                 Contact Us
               </Heading>
               <Input
-                background="black"
+                background={useColorModeValue("gray.200", "black")}
                 name="subject"
                 id="subject"
                 placeholder="Company Name"
@@ -83,14 +87,14 @@ export function Contact_Page() {
                 _hover="hidden"
                 _placeholder={{ opacity: 1, color: "#888" }}
                 border="2px"
-                borderColor="white"
+                borderColor={useColorModeValue("black", "white")}
                 required
                 borderRadius="2xl"
                 minW="full"
                 pl={{ md: "2vw", base: "6vw" }}
               />
               <Input
-                background="black"
+                background={useColorModeValue("gray.200", "black")}
                 name="email"
                 id="email"
                 placeholder="Your E-mail"
@@ -101,7 +105,7 @@ export function Contact_Page() {
                 type="email"
                 _placeholder={{ opacity: 1, color: "#888" }}
                 border="2px"
-                borderColor="white"
+                borderColor={useColorModeValue("black", "white")}
                 required
                 borderRadius="2xl"
                 pl={{ md: "2vw", base: "6vw" }}
@@ -109,7 +113,7 @@ export function Contact_Page() {
               />
 
               <Textarea
-                background="black"
+                background={useColorModeValue("gray.200", "black")}
                 borderRadius="2xl"
                 name="message"
                 text
@@ -121,7 +125,7 @@ export function Contact_Page() {
                 mb={6}
                 _placeholder={{ opacity: 1, color: "#888" }}
                 border="2px"
-                borderColor="white"
+                borderColor={useColorModeValue("black", "white")}
                 required
                 minH="16em"
                 pl={{ md: "2vw", base: "5vw" }}

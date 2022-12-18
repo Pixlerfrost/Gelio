@@ -9,7 +9,7 @@ function Footer() {
         display="flex"
         flexWrap="wrap"
         justify="center"
-        p="6"
+        p="9"
         align="center"
         pb={{ base: "5vh" }}
       >
