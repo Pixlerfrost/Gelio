@@ -83,7 +83,7 @@ export function Contact_Page() {
                 variant="filled"
                 mb={6}
                 type="text"
-                color="white"
+                textColor={useColorModeValue("black", "white")}
                 _hover="hidden"
                 _placeholder={{ opacity: 1, color: "#888" }}
                 border="2px"
@@ -99,7 +99,7 @@ export function Contact_Page() {
                 id="email"
                 placeholder="Your E-mail"
                 variant="filled"
-                textColor="white"
+                textColor={useColorModeValue("black", "white")}
                 mb={6}
                 _hover="hidden"
                 type="email"
@@ -117,7 +117,7 @@ export function Contact_Page() {
                 borderRadius="2xl"
                 name="message"
                 text
-                textColor="white"
+                textColor={useColorModeValue("black", "white")}
                 id="message"
                 placeholder="Additional Information"
                 variant="filled"
