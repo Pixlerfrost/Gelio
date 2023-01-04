@@ -23,23 +23,18 @@ function Our_Team() {
         </Heading>
       </motion.div>
       <Stack>
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          <Image
-            src="/My_Bird.ico"
-            alt="profile"
-            borderRadius="full"
-            w="100px"
-            h="100px"
-            border="4px"
-            borderColor="white"
-            ml="23%"
-            mt="3vh"
-          />
-        </motion.div>
+        <Image
+          src="/My_Bird.ico"
+          alt="profile"
+          borderRadius="full"
+          w="100px"
+          h="100px"
+          border="4px"
+          borderColor="white"
+          ml="23%"
+          mt="3vh"
+        />
+
         <Link href="https://mohamad.vercel.app/">
           <Text textAlign="center" fontWeight="bold" fontSize="xl" pt="2">
             Mohamad Youness

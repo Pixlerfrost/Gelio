@@ -25,6 +25,7 @@ function Hero() {
           maxW="container.md"
           textAlign="center"
           color={useColorModeValue("#fa1d53", "white")}
+          fontFamily="Poppins,sans-serif"
         >
           Web Design &
           <Text
@@ -41,14 +42,13 @@ function Hero() {
         transition={{ duration: 1, delay: 0.2 }}
       >
         <Text
-          fontSize={{ base: 15, md: 23 }}
+          fontSize={{ base: 15, md: 22 }}
           color="#888"
-          fontWeight="semibold"
           w="75vw"
           textAlign="center"
-          p="2"
+          p="4"
         >
-          A website to fullfill your heart&apos;s desires
+          A website to fullfill your heart&apos;s desires.
         </Text>
       </motion.div>
     </Stack>
