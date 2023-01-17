@@ -46,7 +46,11 @@ function Hero() {
           color="#888"
           w="75vw"
           textAlign="center"
-          p="1"
+          p="2"
+          textTransform="none"
+          fontWeight="350"
+          letterSpacing="1px"
+          lineHeight="32px"
         >
           A website to fullfill your heart&apos;s desires.
         </Text>
