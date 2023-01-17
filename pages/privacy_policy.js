@@ -12,7 +12,7 @@ function Privacy_Policy() {
         <Text
           minW="full"
           color={useColorModeValue("black", "gray.200")}
-          textAlign="center"
+          textAlign="start"
           lineHeight="taller"
         >
           PRIVACY NOTICE Last updated December 03, 2022 <br />

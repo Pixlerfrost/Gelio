@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Gelio</title>
-        <meta name="description" content="MGY-Tech | Web design agency" />
+        <meta name="description" content="Gelio | Web design agency" />
         <meta name="author" content="Mohamad Youness" />
 
         <link rel="shortcut icon" href="/Logo.png" type="image/x-icon" />

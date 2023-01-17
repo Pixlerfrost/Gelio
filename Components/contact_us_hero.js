@@ -55,19 +55,16 @@ function Contact_Us_Hero() {
         </Text>
       </motion.div>
 
-      <motion.div
-        initial={{ y: 1, opacity: 0.8 }}
-        whileHover={{ y: -2, opacity: 1 }}
-      >
+      <motion.div initial={{ y: 1 }} whileHover={{ y: -2 }}>
         <Link href="contact_us" color="white" _hover="none" overflow="hidden">
           <Button
-            borderRadius="lg"
+            borderRadius="full"
             background={useColorModeValue("#fa1d53", "#8255ff")}
             color={useColorModeValue("white", "#050505")}
             fontSize={{ base: "13px", md: "17px" }}
             padding={{ base: 4, md: 6 }}
             mt="3vh"
-            _hover="none"
+            _hover={{ opacity: 0.8 }}
             fontWeight="500"
             variant="solid"
             mb="3"

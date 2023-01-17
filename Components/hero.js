@@ -46,8 +46,7 @@ function Hero() {
           color="#888"
           w="75vw"
           textAlign="center"
-          p="2"
-          fontFamily="Poppins,sans-serif"
+          p="1"
         >
           A website to fullfill your heart&apos;s desires.
         </Text>
