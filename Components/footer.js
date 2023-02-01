@@ -37,7 +37,7 @@ function Footer() {
           Github
         </Link>
         <Link href="/" paddingX="1vw" color="white">
-          LinkedIn
+          Discord
         </Link>
       </Stack>
     </>

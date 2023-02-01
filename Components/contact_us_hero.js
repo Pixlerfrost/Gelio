@@ -61,12 +61,11 @@ function Contact_Us_Hero() {
             borderRadius="full"
             background={useColorModeValue("#fa1d53", "white")}
             color={useColorModeValue("white", "#050505")}
-            fontSize={{ base: "13px", md: "17px" }}
+            fontSize={{ base: "14px", md: "17px" }}
             padding={{ base: 4, md: 6 }}
             mt="3vh"
             _hover={{ opacity: 0.8 }}
             fontWeight="500"
-            variant="solid"
             mb="3"
           >
             Contact us!
