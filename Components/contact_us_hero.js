@@ -29,10 +29,10 @@ function Contact_Us_Hero() {
           fontSize={{ base: 40, md: 80 }}
           maxW="container.md"
           overflow="hidden"
-          color={useColorModeValue("#fa1d53", "#8255ff")}
+          color={useColorModeValue("#fa1d53", "white")}
           textAlign="center"
           pt="10vh"
-          fontWeight="extrabold"
+          fontFamily="Poppins,sans-serif"
           pb="2vh"
         >
           We make websites the right way.
@@ -46,7 +46,7 @@ function Contact_Us_Hero() {
         <Text
           textAlign="center"
           color="#888"
-          fontSize={{ base: 18, md: 22 }}
+          fontSize={{ base: 18, md: 20 }}
           maxW={{ base: "90vw", md: "container.sm" }}
           overflow="hidden"
         >
@@ -59,7 +59,7 @@ function Contact_Us_Hero() {
         <Link href="contact_us" color="white" _hover="none" overflow="hidden">
           <Button
             borderRadius="full"
-            background={useColorModeValue("#fa1d53", "#8255ff")}
+            background={useColorModeValue("#fa1d53", "white")}
             color={useColorModeValue("white", "#050505")}
             fontSize={{ base: "13px", md: "17px" }}
             padding={{ base: 4, md: 6 }}
