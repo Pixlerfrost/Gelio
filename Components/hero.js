@@ -50,7 +50,6 @@ function Hero() {
           textTransform="none"
           fontWeight="350"
           letterSpacing="1px"
-          lineHeight="32px"
         >
           A website to fullfill your heart&apos;s desires.
         </Text>
