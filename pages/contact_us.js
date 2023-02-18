@@ -136,6 +136,7 @@ export function Contact_Page() {
                 bg={useColorModeValue("#fa1d53", "#8255ff")}
                 color={useColorModeValue("white", "black")}
                 _hover={{ opacity: 0.84 }}
+                _active={{ opacity: 0.84 }}
                 type="submit"
                 value="send"
               >

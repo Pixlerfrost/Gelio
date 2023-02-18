@@ -65,6 +65,7 @@ function Contact_Us_Hero() {
             padding={{ base: 4, md: 6 }}
             mt="3vh"
             _hover={{ opacity: 0.8 }}
+            _active={{ opacity: 0.8 }}
             fontWeight="500"
             mb="3"
           >

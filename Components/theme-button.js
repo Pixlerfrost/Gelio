@@ -20,6 +20,7 @@ const ThemeToggleButton = () => {
           bg={useColorModeValue("#fa1d53", "#8255ff")}
           color={useColorModeValue("white", "black")}
           _hover={{ opacity: 0.84 }}
+          _active={{ opacity: 0.84 }}
           icon={useColorModeValue(<MoonIcon />, <SunIcon />)}
           onClick={toggleColorMode}
         ></IconButton>

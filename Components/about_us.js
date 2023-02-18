@@ -51,10 +51,11 @@ function About_us() {
             borderRadius="full"
             fontSize={{ base: "14px", md: "18px" }}
             fontWeight="500"
-            bg={useColorModeValue("white", "#050505")}
+            bg={useColorModeValue("White", "Black")}
             color={useColorModeValue("#050505", "white")}
             padding={{ base: 5, md: 6 }}
             _hover={{ opacity: 0.8 }}
+            _active={{ opacity: 0.8 }}
           >
             Our services
           </Button>
