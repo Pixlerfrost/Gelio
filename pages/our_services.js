@@ -1,11 +1,17 @@
-import { Heading, Stack } from "@chakra-ui/react";
+import { Heading, Stack, useColorModeValue } from "@chakra-ui/react";
 
 export default function our_services() {
   return (
     <>
-      <Stack justify="center" align="center" bg="white" minH="77.5vh" w="100vw">
+      <Stack
+        justify="center"
+        align="center"
+        bg={useColorModeValue("white", "black")}
+        minH="77.5vh"
+        w="100vw"
+      >
         <Heading
-          color="black"
+          color={useColorModeValue("black", "white")}
           fontSize="6xl"
           flexWrap="wrap"
           overflow="hidden"
